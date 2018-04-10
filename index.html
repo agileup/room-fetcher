@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Fetcher</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <style>
+        body { padding-top: 20px; }
+        .thumb { width: 60px; height: 60px; }
+        .col-deposit { min-width: 70px; text-align: right; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-info">총: <span class="total"></span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>photo</th>
+                        <th>deposit</th>
+                        <th>desc</th>
+                        <th>view</th>
+                        <th>option</th>
+                    </tr>
+                </thead>
+                <tbody id="result">
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            $.get("/fetch", function(data) {
+                $('.total').text(data.total)
+                var rooms = data.rooms
+                rooms.forEach(function(doc) {
+                    var link = `https://www.dabangapp.com/room/${doc.id}`
+                    var template = '<tr>'
+                    template += `<td><img class="thumb" src="${doc.img_url}" /></td>`
+                    template += `<td class="col-deposit">${doc.deposit}</td>`
+                    template += `<td>${doc.title}<br/><a href="${link}" target="_blank">${doc.room_desc}</a></td>`
+                    template += `<td>${doc.view_count}</td>`
+                    template += `<td>${doc.options.join(',') || '-'}<br/>active: ${doc.actived_time}<br/>saved: ${doc.saved_time}</td>`
+                    template += '</tr>'
+                    $('#result').append(template)
+                })
+            }).done(function() {
+
+            }).fail(function(err) {
+                console.error('fetch.error>', err)
+            })
+        }
+    </script>
+</body>
+</html>
