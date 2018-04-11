@@ -1,0 +1,3258 @@
+{
+  "features": [],
+  "total": 24,
+  "rooms": [
+    {
+      "seq": 3493460,
+      "id": "5a709873a1f083109baa29c6",
+      "user_id": "onno1991@hanmail.net",
+      "name": "박정기",
+      "agent_id": "56b17fe6dffd1c0be485aa5c",
+      "saved_time": "2018-01-30T16:08:19.599Z",
+      "actived_time": "2018-03-24T13:16:47.752Z",
+      "status": 1,
+      "view_count": 2352,
+      "processing": false,
+      "title": "❤WOW풀옵션!!❤역세권!!❤붙박이장!!❤석촌호수❤가성비甲✅중개사추천✅보증금조절가능✅버스정류장도보3분✅정남향✅채광✅큰길안심귀가✅잘 지어진 원룸풀옵션이 떴습니다!!✅가성비가 기가 막히네요!!",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.10961311144735,
+        37.51074927991449
+      ],
+      "animal": true,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": -1,
+      "room_options": [
+        0,
+        1,
+        7,
+        8,
+        6,
+        4
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "27009934-1b13-4fff-8d21-7c7a8d77a5e1",
+        "1df7a2ed-d272-4fc8-9986-95a83fb17491",
+        "00d352cd-b2ae-4b92-a551-4c6f73ee8634",
+        "94311c27-2bd8-4627-96f3-32f45a972e96",
+        "2659e2cb-c36d-4e32-927c-b8328529eff1",
+        "31ac6fce-0193-4a8b-8851-81abce7762d9",
+        "faf25e2f-c67c-46b7-a29f-76bcf4a90338",
+        "c9b0a811-0f78-464e-8175-43225bab874f",
+        "40fd4517-b347-4008-b8b8-a3f64d509021",
+        "2a485e14-0788-4a47-b4ac-8913370f8049",
+        "f8b280bc-8b01-4918-8b9d-b948aac563bc"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          1000,
+          30,
+          0
+        ],
+        [
+          500,
+          35,
+          0
+        ],
+        [
+          2000,
+          25,
+          0
+        ],
+        [
+          3000,
+          20,
+          0
+        ],
+        [
+          4500,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 15,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 4500,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "4500",
+      "room_desc": "원룸 | 반지층 | 23.1m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "반지층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "가스레인지",
+        "신발장",
+        "옷장"
+      ],
+      "refresh": true,
+      "remaining_days": 14,
+      "is_pano": false,
+      "hash_tags": [
+        "#월세가능",
+        "#주차",
+        "#반려동물"
+      ],
+      "photo": [
+        {
+          "key": "27009934-1b13-4fff-8d21-7c7a8d77a5e1",
+          "desc": ""
+        },
+        {
+          "key": "1df7a2ed-d272-4fc8-9986-95a83fb17491",
+          "desc": ""
+        },
+        {
+          "key": "00d352cd-b2ae-4b92-a551-4c6f73ee8634",
+          "desc": ""
+        },
+        {
+          "key": "94311c27-2bd8-4627-96f3-32f45a972e96",
+          "desc": ""
+        },
+        {
+          "key": "2659e2cb-c36d-4e32-927c-b8328529eff1",
+          "desc": ""
+        },
+        {
+          "key": "31ac6fce-0193-4a8b-8851-81abce7762d9",
+          "desc": ""
+        },
+        {
+          "key": "faf25e2f-c67c-46b7-a29f-76bcf4a90338",
+          "desc": ""
+        },
+        {
+          "key": "c9b0a811-0f78-464e-8175-43225bab874f",
+          "desc": ""
+        },
+        {
+          "key": "40fd4517-b347-4008-b8b8-a3f64d509021",
+          "desc": ""
+        },
+        {
+          "key": "2a485e14-0788-4a47-b4ac-8913370f8049",
+          "desc": ""
+        },
+        {
+          "key": "f8b280bc-8b01-4918-8b9d-b948aac563bc",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/27009934-1b13-4fff-8d21-7c7a8d77a5e1",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "4500",
+      "saved-time": "2018-01-30T16:08:19.599Z",
+      "_id": "5a709873a1f083109baa29c6",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3884314,
+      "id": "5aba2d6a92681352eb2644d2",
+      "user_id": "barocons@hanmail.net",
+      "name": "이선희",
+      "agent_id": "5ab8b32468f3ba26ce4538e5",
+      "saved_time": "2018-03-27T11:39:22.735Z",
+      "actived_time": "2018-03-27T11:39:22.735Z",
+      "status": 1,
+      "view_count": 121,
+      "processing": false,
+      "title": "16년식 오픈형 풀옵션 공실이에요~~",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.1003069629763,
+        37.50413336316716
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 5,
+      "room_options": [
+        0,
+        1,
+        6,
+        7,
+        12,
+        8
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "768f08a1-389e-42ab-9c7c-16bce08cab65",
+        "45b7b568-6a29-4baf-bed9-39e4c62b0592",
+        "46d03280-cc71-464c-bdec-e67d00f0ae16",
+        "0998210a-66bf-4288-8e16-6d89b90f7954",
+        "48a225dc-376e-43e4-909a-3af798c333e5",
+        "875c906e-c1e6-4929-8035-6f9b0b4c21da",
+        "5551b7e6-803a-448b-b628-35d0ed0398db",
+        "1d6d4917-138a-4091-9ec5-04dc3ee11bd0",
+        "348b02eb-570e-484b-b761-dac949d70217",
+        "34e36f15-e9c0-4d8d-a84e-af677e730854",
+        "67cd5e64-539b-44bc-897d-df1e40521964",
+        "6b621a3d-476c-4a68-a05f-47ddf4686cc7",
+        "45308d5e-98e4-478e-b484-2d121e03adf3"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          13000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 1,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 13000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억3000",
+      "room_desc": "원룸 | 5층 | 23.1m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "5층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "신발장",
+        "냉장고",
+        "비데",
+        "가스레인지"
+      ],
+      "refresh": false,
+      "remaining_days": 17,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "768f08a1-389e-42ab-9c7c-16bce08cab65",
+          "desc": ""
+        },
+        {
+          "key": "45b7b568-6a29-4baf-bed9-39e4c62b0592",
+          "desc": ""
+        },
+        {
+          "key": "46d03280-cc71-464c-bdec-e67d00f0ae16",
+          "desc": ""
+        },
+        {
+          "key": "0998210a-66bf-4288-8e16-6d89b90f7954",
+          "desc": ""
+        },
+        {
+          "key": "48a225dc-376e-43e4-909a-3af798c333e5",
+          "desc": ""
+        },
+        {
+          "key": "875c906e-c1e6-4929-8035-6f9b0b4c21da",
+          "desc": ""
+        },
+        {
+          "key": "5551b7e6-803a-448b-b628-35d0ed0398db",
+          "desc": ""
+        },
+        {
+          "key": "1d6d4917-138a-4091-9ec5-04dc3ee11bd0",
+          "desc": ""
+        },
+        {
+          "key": "348b02eb-570e-484b-b761-dac949d70217",
+          "desc": ""
+        },
+        {
+          "key": "34e36f15-e9c0-4d8d-a84e-af677e730854",
+          "desc": ""
+        },
+        {
+          "key": "67cd5e64-539b-44bc-897d-df1e40521964",
+          "desc": ""
+        },
+        {
+          "key": "6b621a3d-476c-4a68-a05f-47ddf4686cc7",
+          "desc": ""
+        },
+        {
+          "key": "45308d5e-98e4-478e-b484-2d121e03adf3",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/768f08a1-389e-42ab-9c7c-16bce08cab65",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억3000",
+      "saved-time": "2018-03-27T11:39:22.735Z",
+      "_id": "5aba2d6a92681352eb2644d2",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3951298,
+      "id": "5ac48061af81e82f9d1bfc1c",
+      "user_id": "egreen0118@naver.com",
+      "name": "이지은",
+      "agent_id": "5abc4123ccb62249e153f95a",
+      "saved_time": "2018-04-04T07:36:01.618Z",
+      "actived_time": "2018-04-04T07:36:01.618Z",
+      "status": 1,
+      "view_count": 51,
+      "processing": false,
+      "title": "★ 석촌역 고분공원옆 ★ 풀옵션 신축 원룸 ",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.1003069629763,
+        37.50413336316716
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 5,
+      "room_options": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        8,
+        11,
+        4
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "35919c46-6e12-4e6c-8c8e-5f93657bc2da",
+        "06488098-8926-4d6a-9b25-076c6ca9141d",
+        "80a750c0-289f-4628-a12d-212c2faaa1b1",
+        "392111aa-edb1-494c-a9a3-278a626e4d31",
+        "7fa5e8c2-4faf-4473-87c5-a3369613ebc5",
+        "691d04fa-3ec4-46b4-a893-5a56ff68c081",
+        "38b98a08-fa10-49c9-b554-c73fa6e54786",
+        "eafa944a-ba75-449b-9a62-13f2dcfe314f",
+        "fd809278-108b-4506-8219-9165a30cd9b4",
+        "5351663c-22ab-49d1-834d-7681737fa077",
+        "49f0699e-594b-4d88-9968-f97368bdecd5",
+        "65dff087-c9b7-45d1-9152-78417cc23c84",
+        "2c84f2ac-0705-479d-adbd-1c7a573de9e4"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          13000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 13000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억3000",
+      "room_desc": "원룸 | 5층 | 23.1m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "5층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "책상",
+        "신발장",
+        "냉장고",
+        "가스레인지",
+        "전자도어락",
+        "옷장"
+      ],
+      "refresh": false,
+      "remaining_days": 24,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "35919c46-6e12-4e6c-8c8e-5f93657bc2da",
+          "desc": ""
+        },
+        {
+          "key": "06488098-8926-4d6a-9b25-076c6ca9141d",
+          "desc": ""
+        },
+        {
+          "key": "80a750c0-289f-4628-a12d-212c2faaa1b1",
+          "desc": ""
+        },
+        {
+          "key": "392111aa-edb1-494c-a9a3-278a626e4d31",
+          "desc": ""
+        },
+        {
+          "key": "7fa5e8c2-4faf-4473-87c5-a3369613ebc5",
+          "desc": ""
+        },
+        {
+          "key": "691d04fa-3ec4-46b4-a893-5a56ff68c081",
+          "desc": ""
+        },
+        {
+          "key": "38b98a08-fa10-49c9-b554-c73fa6e54786",
+          "desc": ""
+        },
+        {
+          "key": "eafa944a-ba75-449b-9a62-13f2dcfe314f",
+          "desc": ""
+        },
+        {
+          "key": "fd809278-108b-4506-8219-9165a30cd9b4",
+          "desc": ""
+        },
+        {
+          "key": "5351663c-22ab-49d1-834d-7681737fa077",
+          "desc": ""
+        },
+        {
+          "key": "49f0699e-594b-4d88-9968-f97368bdecd5",
+          "desc": ""
+        },
+        {
+          "key": "65dff087-c9b7-45d1-9152-78417cc23c84",
+          "desc": ""
+        },
+        {
+          "key": "2c84f2ac-0705-479d-adbd-1c7a573de9e4",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/35919c46-6e12-4e6c-8c8e-5f93657bc2da",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억3000",
+      "saved-time": "2018-04-04T07:36:01.618Z",
+      "_id": "5ac48061af81e82f9d1bfc1c",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3882026,
+      "id": "5ab9fcfda6a43022fcaf27e5",
+      "user_id": "lsa6441@naver.com",
+      "name": "이선아",
+      "agent_id": "585cc2f58714c8242eb4c5b5",
+      "saved_time": "2018-03-27T08:12:45.842Z",
+      "actived_time": "2018-04-07T00:43:35.190Z",
+      "status": 1,
+      "view_count": 121,
+      "processing": false,
+      "title": "🍎송파동🍎석촌호수 카페거리 채광좋은 풀옵 원룸",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.106078508,
+        37.5099163752
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 10.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "7964c93f-354f-40a7-a0f6-68ad22dae69b",
+        "7e1b3e8f-bb47-43ab-ba1c-f90e7a41578c",
+        "684d7384-8ad0-4d9d-861e-0b84df104b20",
+        "8334b6ff-88f1-4425-a53f-f0fcaf80ed98",
+        "151c8220-6e19-4445-8092-cc872c72d3cb",
+        "4ba9741f-d9de-411f-ab13-fde325219c16",
+        "2bd06d04-cc53-4142-9b18-e220b412893f",
+        "e11df1d2-d8f6-433d-8862-8c74519f4405"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          7000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 7000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "7000",
+      "room_desc": "원룸 | 2층 | 23.1m² | 관리비 10만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "침대",
+        "옷장",
+        "신발장",
+        "냉장고",
+        "인덕션",
+        "전자도어락"
+      ],
+      "refresh": false,
+      "remaining_days": 27,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "7964c93f-354f-40a7-a0f6-68ad22dae69b",
+          "desc": ""
+        },
+        {
+          "key": "7e1b3e8f-bb47-43ab-ba1c-f90e7a41578c",
+          "desc": ""
+        },
+        {
+          "key": "684d7384-8ad0-4d9d-861e-0b84df104b20",
+          "desc": ""
+        },
+        {
+          "key": "8334b6ff-88f1-4425-a53f-f0fcaf80ed98",
+          "desc": ""
+        },
+        {
+          "key": "151c8220-6e19-4445-8092-cc872c72d3cb",
+          "desc": ""
+        },
+        {
+          "key": "4ba9741f-d9de-411f-ab13-fde325219c16",
+          "desc": ""
+        },
+        {
+          "key": "2bd06d04-cc53-4142-9b18-e220b412893f",
+          "desc": ""
+        },
+        {
+          "key": "e11df1d2-d8f6-433d-8862-8c74519f4405",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/7964c93f-354f-40a7-a0f6-68ad22dae69b",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "7000",
+      "saved-time": "2018-03-27T08:12:45.842Z",
+      "_id": "5ab9fcfda6a43022fcaf27e5",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3600656,
+      "id": "5a9132a28be80e5bc251c375",
+      "user_id": "kgh3740@naver.com",
+      "name": "김기형",
+      "agent_id": "56848eb774fb654444df5ea1",
+      "saved_time": "2018-02-24T09:38:42.494Z",
+      "actived_time": "2018-03-30T11:15:00.483Z",
+      "status": 1,
+      "view_count": 288,
+      "processing": false,
+      "title": "남향!넓은 준신축급! 분리형 원룸 전세",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0979605327,
+        37.5052345585
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        7,
+        11,
+        6
+      ],
+      "room_size": 26.4,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "feab4da1-57d8-4780-9461-40bed7e56b34",
+        "f72adac3-2d22-42d7-826c-9e10757b96f5",
+        "92e8a881-d122-44c6-9059-9000d0b389cc",
+        "4d832f90-d6e5-464d-98b2-a24260d7ac35",
+        "4be1c1ba-3308-4ed3-a068-7d4abde34cc0",
+        "f65b067e-ce57-44de-bcbd-b1ddae396d4e"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          14000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 2,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 14000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억4000",
+      "room_desc": "원룸 | 2층 | 26.4m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "전자도어락",
+        "신발장"
+      ],
+      "refresh": false,
+      "remaining_days": 20,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "feab4da1-57d8-4780-9461-40bed7e56b34",
+          "desc": ""
+        },
+        {
+          "key": "f72adac3-2d22-42d7-826c-9e10757b96f5",
+          "desc": ""
+        },
+        {
+          "key": "92e8a881-d122-44c6-9059-9000d0b389cc",
+          "desc": ""
+        },
+        {
+          "key": "4d832f90-d6e5-464d-98b2-a24260d7ac35",
+          "desc": ""
+        },
+        {
+          "key": "4be1c1ba-3308-4ed3-a068-7d4abde34cc0",
+          "desc": ""
+        },
+        {
+          "key": "f65b067e-ce57-44de-bcbd-b1ddae396d4e",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/feab4da1-57d8-4780-9461-40bed7e56b34",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억4000",
+      "saved-time": "2018-02-24T09:38:42.494Z",
+      "_id": "5a9132a28be80e5bc251c375",
+      "room-size-m2": 26.4
+    },
+    {
+      "seq": 3947431,
+      "id": "5ac4364d3a455263ea3b2d15",
+      "user_id": "bazak@daum.net",
+      "name": "홍경화",
+      "agent_id": "53dee6aee4b0f94c1e84d34b",
+      "saved_time": "2018-04-04T02:19:57.103Z",
+      "actived_time": "2018-04-04T02:22:11.201Z",
+      "status": 1,
+      "view_count": 130,
+      "processing": false,
+      "title": "LH / SH 풀옵션 석촌역 역세권 가성비갑 ",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.11192160454563,
+        37.5054492090374
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 7.0,
+      "maintenance": true,
+      "room_floor": 4,
+      "room_options": [
+        0,
+        1,
+        7,
+        3,
+        9
+      ],
+      "room_size": 19.8,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "b03d19c9-d30f-4e76-90bb-c60d46774831",
+        "d83aecb0-a797-4099-85cd-8e28bf620f98",
+        "3ba1ccae-128b-43d5-bfb6-9c3e246d2bc3",
+        "1c8ca16d-291b-4bf4-ad4a-d93d0e389bb1",
+        "6b292249-86d2-4643-b2a6-0247942c147f",
+        "c46c341f-d6eb-451e-b933-32a9791ae60b",
+        "0b40a9f0-e604-458d-9cfe-185f20434d66",
+        "f2c07338-0bfc-4784-ae38-94e56c45316c",
+        "be4d64b3-1fb5-4e83-bf70-a1c045f7065d"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          12000,
+          0,
+          1
+        ],
+        [
+          2000,
+          50,
+          0
+        ],
+        [
+          6000,
+          30,
+          0
+        ],
+        [
+          8000,
+          20,
+          0
+        ]
+      ],
+      "favorite_count": 1,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 12000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억2000",
+      "room_desc": "원룸 | 4층 | 19.8m² | 관리비 7만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "4층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "책상",
+        "인덕션"
+      ],
+      "refresh": false,
+      "remaining_days": 24,
+      "is_pano": false,
+      "hash_tags": [
+        "#월세가능",
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "b03d19c9-d30f-4e76-90bb-c60d46774831",
+          "desc": ""
+        },
+        {
+          "key": "d83aecb0-a797-4099-85cd-8e28bf620f98",
+          "desc": ""
+        },
+        {
+          "key": "3ba1ccae-128b-43d5-bfb6-9c3e246d2bc3",
+          "desc": ""
+        },
+        {
+          "key": "1c8ca16d-291b-4bf4-ad4a-d93d0e389bb1",
+          "desc": ""
+        },
+        {
+          "key": "6b292249-86d2-4643-b2a6-0247942c147f",
+          "desc": ""
+        },
+        {
+          "key": "c46c341f-d6eb-451e-b933-32a9791ae60b",
+          "desc": ""
+        },
+        {
+          "key": "0b40a9f0-e604-458d-9cfe-185f20434d66",
+          "desc": ""
+        },
+        {
+          "key": "f2c07338-0bfc-4784-ae38-94e56c45316c",
+          "desc": ""
+        },
+        {
+          "key": "be4d64b3-1fb5-4e83-bf70-a1c045f7065d",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/b03d19c9-d30f-4e76-90bb-c60d46774831",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억2000",
+      "saved-time": "2018-04-04T02:19:57.103Z",
+      "_id": "5ac4364d3a455263ea3b2d15",
+      "room-size-m2": 19.8
+    },
+    {
+      "seq": 3990798,
+      "id": "5acb35fad562685e466625c1",
+      "user_id": "sungmin001@hanmail.net",
+      "name": "임성민",
+      "agent_id": "52a6cc3ae4b0cc53acc5b553",
+      "saved_time": "2018-04-09T09:44:26.650Z",
+      "actived_time": "2018-04-09T09:44:26.650Z",
+      "status": 1,
+      "view_count": 4,
+      "processing": false,
+      "title": "♥♡우와~ 석촌역 도보 1분!!!! 진짜라자짜짜파게티",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.10691515737045,
+        37.506517032072956
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 3,
+      "room_options": [
+        0,
+        1,
+        8,
+        9,
+        7,
+        6
+      ],
+      "room_size": 19.8,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "2c13af4b-bde5-4b9e-882a-e59397d22c69",
+        "469531a6-6f85-48e8-a2ee-33522f453870",
+        "53f230ce-08e7-4410-afd3-fb26c9e9ce6e",
+        "cb468b26-145c-44ce-9262-17d1ba9e1be7"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          13000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 13000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억3000",
+      "room_desc": "원룸 | 3층 | 19.8m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "3층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "가스레인지",
+        "인덕션",
+        "냉장고",
+        "신발장"
+      ],
+      "refresh": false,
+      "remaining_days": 29,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "2c13af4b-bde5-4b9e-882a-e59397d22c69",
+          "desc": ""
+        },
+        {
+          "key": "469531a6-6f85-48e8-a2ee-33522f453870",
+          "desc": ""
+        },
+        {
+          "key": "53f230ce-08e7-4410-afd3-fb26c9e9ce6e",
+          "desc": ""
+        },
+        {
+          "key": "cb468b26-145c-44ce-9262-17d1ba9e1be7",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/2c13af4b-bde5-4b9e-882a-e59397d22c69",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억3000",
+      "saved-time": "2018-04-09T09:44:26.650Z",
+      "_id": "5acb35fad562685e466625c1",
+      "room-size-m2": 19.8
+    },
+    {
+      "seq": 3599211,
+      "id": "5a90f43d7e1c1f1f81c95a50",
+      "user_id": "lsa6441@naver.com",
+      "name": "이선아",
+      "agent_id": "585cc2f58714c8242eb4c5b5",
+      "saved_time": "2018-02-24T05:12:29.643Z",
+      "actived_time": "2018-04-02T08:43:24.469Z",
+      "status": 1,
+      "view_count": 259,
+      "processing": false,
+      "title": "🍎송파동🍎초역세 송파대로 30초 준신축 원룸",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.10560077362375,
+        37.508003070012805
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 5.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        1,
+        0,
+        6,
+        7,
+        9,
+        11,
+        4
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "d2ecce33-613f-4f5d-be40-952f97a8b501",
+        "66c1a0e8-29c5-462c-bae6-3d752ebaf5a0",
+        "a22678b5-64cf-4ccf-b66a-bdff4d5be5ba",
+        "7af61277-e1f0-4cba-88a3-98311d94dbe0",
+        "33e18f77-ee36-4861-9e41-8cf67ad14b81",
+        "d116e301-960e-4826-b6ea-a85f6b1ea45b",
+        "64954885-e8af-46b5-ab33-f09ce545f360",
+        "43dd82cf-6227-4f7d-9119-a3a784459ae8"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          15000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 15000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억5000",
+      "room_desc": "원룸 | 2층 | 23.1m² | 관리비 5만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "세탁기",
+        "에어컨",
+        "신발장",
+        "냉장고",
+        "인덕션",
+        "전자도어락",
+        "옷장"
+      ],
+      "refresh": false,
+      "remaining_days": 22,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "d2ecce33-613f-4f5d-be40-952f97a8b501",
+          "desc": ""
+        },
+        {
+          "key": "66c1a0e8-29c5-462c-bae6-3d752ebaf5a0",
+          "desc": ""
+        },
+        {
+          "key": "a22678b5-64cf-4ccf-b66a-bdff4d5be5ba",
+          "desc": ""
+        },
+        {
+          "key": "7af61277-e1f0-4cba-88a3-98311d94dbe0",
+          "desc": ""
+        },
+        {
+          "key": "33e18f77-ee36-4861-9e41-8cf67ad14b81",
+          "desc": ""
+        },
+        {
+          "key": "d116e301-960e-4826-b6ea-a85f6b1ea45b",
+          "desc": ""
+        },
+        {
+          "key": "64954885-e8af-46b5-ab33-f09ce545f360",
+          "desc": ""
+        },
+        {
+          "key": "43dd82cf-6227-4f7d-9119-a3a784459ae8",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/d2ecce33-613f-4f5d-be40-952f97a8b501",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억5000",
+      "saved-time": "2018-02-24T05:12:29.643Z",
+      "_id": "5a90f43d7e1c1f1f81c95a50",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3821837,
+      "id": "5ab065546a40ee1c3fc3038c",
+      "user_id": "bazak@daum.net",
+      "name": "홍경화",
+      "agent_id": "53dee6aee4b0f94c1e84d34b",
+      "saved_time": "2018-03-20T01:35:16.531Z",
+      "actived_time": "2018-03-28T06:32:15.067Z",
+      "status": 1,
+      "view_count": 332,
+      "processing": false,
+      "title": "석촌호수 도보3분 ※ 퍼펙트한 풀옵션 가성비갑",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0998792831,
+        37.5056978703
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        7,
+        9
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "58f403e2-2343-4601-b365-b86ea29dbacf",
+        "9a11adb9-6392-4b09-8666-a4185d77a307",
+        "e6a8e882-70e8-41dc-bc05-6ddc6a7c7594",
+        "ae2183ac-a64f-425a-bf67-75ae9fc3ed85",
+        "178134d9-e48a-4350-895c-c1faa5708919"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          11000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 3,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 11000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억1000",
+      "room_desc": "원룸 | 2층 | 23.1m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "인덕션"
+      ],
+      "refresh": false,
+      "remaining_days": 17,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "58f403e2-2343-4601-b365-b86ea29dbacf",
+          "desc": ""
+        },
+        {
+          "key": "9a11adb9-6392-4b09-8666-a4185d77a307",
+          "desc": ""
+        },
+        {
+          "key": "e6a8e882-70e8-41dc-bc05-6ddc6a7c7594",
+          "desc": ""
+        },
+        {
+          "key": "ae2183ac-a64f-425a-bf67-75ae9fc3ed85",
+          "desc": ""
+        },
+        {
+          "key": "178134d9-e48a-4350-895c-c1faa5708919",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/58f403e2-2343-4601-b365-b86ea29dbacf",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억1000",
+      "saved-time": "2018-03-20T01:35:16.531Z",
+      "_id": "5ab065546a40ee1c3fc3038c",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3368504,
+      "id": "5a4c513a7f22be2fbb13af4a",
+      "user_id": "bank420@hanmail.net",
+      "name": "강성룡",
+      "agent_id": "55dd54499bb22d48fc71982b",
+      "saved_time": "2018-01-03T03:42:50.137Z",
+      "actived_time": "2018-03-16T01:03:24.672Z",
+      "status": 1,
+      "view_count": 893,
+      "processing": false,
+      "title": "석촌역 넓은원룸, 초급전세 나왔습니다.",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.111671539,
+        37.5046097091
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 4.0,
+      "maintenance": true,
+      "room_floor": -1,
+      "room_options": [
+        11,
+        6
+      ],
+      "room_size": 26.4,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "670895ad-88d9-4122-9ec7-44f790c810dc",
+        "60090c02-48c0-49ff-a205-230cd91ab794",
+        "c796d18f-761a-408f-9976-506d9d73fc9b",
+        "dfcee51c-8224-43cc-945b-5bbaa7b38dd0",
+        "90004d45-ce00-4cbf-96a2-ecf859fc612e",
+        "424e9587-def4-4262-a37d-bc027ae1a2e2",
+        "e6eab544-33d2-43b0-8332-f359d443e2fe",
+        "df2baeca-a82b-4ccc-9a64-81dd9469aa0f",
+        "0ebf95f1-d0a2-4d95-a5a4-3f09ceff08bf",
+        "0280bb35-dbfd-4f2c-a669-dd15101a2923",
+        "cadf12b6-e67e-4258-9f06-9dcdfe1368a5",
+        "804337a0-2c3b-4265-947f-a5e15f71a8a1",
+        "fcc789c5-5ce9-4eb5-81a2-d6e05e4b50dc",
+        "8cb1f0a7-ffe6-4ab9-84d1-e8046474e088",
+        "62d552ac-fe70-4c86-92ff-1b0b51a4cde2",
+        "923da41b-2290-4eed-ad47-0fd76a9ce747"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          5000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 3,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 5000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "5000",
+      "room_desc": "원룸 | 반지층 | 26.4m² | 관리비 4만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "반지층",
+      "building_floor_str": "",
+      "options": [
+        "전자도어락",
+        "신발장"
+      ],
+      "refresh": true,
+      "remaining_days": 5,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "670895ad-88d9-4122-9ec7-44f790c810dc",
+          "desc": ""
+        },
+        {
+          "key": "60090c02-48c0-49ff-a205-230cd91ab794",
+          "desc": ""
+        },
+        {
+          "key": "c796d18f-761a-408f-9976-506d9d73fc9b",
+          "desc": ""
+        },
+        {
+          "key": "dfcee51c-8224-43cc-945b-5bbaa7b38dd0",
+          "desc": ""
+        },
+        {
+          "key": "90004d45-ce00-4cbf-96a2-ecf859fc612e",
+          "desc": ""
+        },
+        {
+          "key": "424e9587-def4-4262-a37d-bc027ae1a2e2",
+          "desc": ""
+        },
+        {
+          "key": "e6eab544-33d2-43b0-8332-f359d443e2fe",
+          "desc": ""
+        },
+        {
+          "key": "df2baeca-a82b-4ccc-9a64-81dd9469aa0f",
+          "desc": ""
+        },
+        {
+          "key": "0ebf95f1-d0a2-4d95-a5a4-3f09ceff08bf",
+          "desc": ""
+        },
+        {
+          "key": "0280bb35-dbfd-4f2c-a669-dd15101a2923",
+          "desc": ""
+        },
+        {
+          "key": "cadf12b6-e67e-4258-9f06-9dcdfe1368a5",
+          "desc": ""
+        },
+        {
+          "key": "804337a0-2c3b-4265-947f-a5e15f71a8a1",
+          "desc": ""
+        },
+        {
+          "key": "fcc789c5-5ce9-4eb5-81a2-d6e05e4b50dc",
+          "desc": ""
+        },
+        {
+          "key": "8cb1f0a7-ffe6-4ab9-84d1-e8046474e088",
+          "desc": ""
+        },
+        {
+          "key": "62d552ac-fe70-4c86-92ff-1b0b51a4cde2",
+          "desc": ""
+        },
+        {
+          "key": "923da41b-2290-4eed-ad47-0fd76a9ce747",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/670895ad-88d9-4122-9ec7-44f790c810dc",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "5000",
+      "saved-time": "2018-01-03T03:42:50.137Z",
+      "_id": "5a4c513a7f22be2fbb13af4a",
+      "room-size-m2": 26.4
+    },
+    {
+      "seq": 3868229,
+      "id": "5ab86a389db0244d7b00ef5b",
+      "user_id": "ww1145@naver.com",
+      "name": "강주연",
+      "agent_id": "5a8d00807611e77c54ddd97b",
+      "saved_time": "2018-03-26T03:34:16.687Z",
+      "actived_time": "2018-03-26T03:34:16.687Z",
+      "status": 1,
+      "view_count": 89,
+      "processing": false,
+      "title": "♡♡♡석촌역 초역세권,큰방 분리형♡♡♡",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.1077569214,
+        37.5067289043
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 5.0,
+      "maintenance": true,
+      "room_floor": 3,
+      "room_options": [
+        1,
+        0,
+        8,
+        7,
+        11
+      ],
+      "room_size": 29.7,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "b8a40827-29b3-4bfa-83c0-b23533551187",
+        "1ea34f9b-746c-44a2-82a2-7d0c70015f15",
+        "40c29552-f854-4527-9efe-c3bdededbb02",
+        "346c3b22-aade-45fe-a96b-a8aa7fb1bc36",
+        "642bcec1-433e-4d3b-83bc-9eba5cb152e6"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          13000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 13000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억3000",
+      "room_desc": "원룸 | 3층 | 29.7m² | 관리비 5만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "3층",
+      "building_floor_str": "",
+      "options": [
+        "세탁기",
+        "에어컨",
+        "가스레인지",
+        "냉장고",
+        "전자도어락"
+      ],
+      "refresh": false,
+      "remaining_days": 15,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "b8a40827-29b3-4bfa-83c0-b23533551187",
+          "desc": ""
+        },
+        {
+          "key": "1ea34f9b-746c-44a2-82a2-7d0c70015f15",
+          "desc": ""
+        },
+        {
+          "key": "40c29552-f854-4527-9efe-c3bdededbb02",
+          "desc": ""
+        },
+        {
+          "key": "346c3b22-aade-45fe-a96b-a8aa7fb1bc36",
+          "desc": ""
+        },
+        {
+          "key": "642bcec1-433e-4d3b-83bc-9eba5cb152e6",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/b8a40827-29b3-4bfa-83c0-b23533551187",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억3000",
+      "saved-time": "2018-03-26T03:34:16.687Z",
+      "_id": "5ab86a389db0244d7b00ef5b",
+      "room-size-m2": 29.7
+    },
+    {
+      "seq": 3884240,
+      "id": "5aba2b1ab3e5fc69a8214460",
+      "user_id": "barocons@hanmail.net",
+      "name": "이선희",
+      "agent_id": "5ab8b32468f3ba26ce4538e5",
+      "saved_time": "2018-03-27T11:29:30.451Z",
+      "actived_time": "2018-03-27T11:33:51.397Z",
+      "status": 1,
+      "view_count": 216,
+      "processing": false,
+      "title": "16년식 등기된1층 주차장방  저렴한 전세",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.1003069629763,
+        37.50413336316716
+      ],
+      "animal": true,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 1,
+      "room_options": [
+        0,
+        1,
+        8,
+        7,
+        6,
+        12,
+        11
+      ],
+      "room_size": 29.7,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "a65e10c6-d54b-4f9c-bec7-f2051c359d3e",
+        "b8a3c0c1-2b06-459c-aafa-b8732c8985f7",
+        "35a427bd-180c-4281-a5f0-5f7cc08baae7",
+        "49687b51-8476-4eb6-a3e9-2a0ea5af514c",
+        "28360aa3-2ef8-4948-ada0-449a5372910f",
+        "63fdc371-2c3b-4fb2-a910-a4c43d8f26fa",
+        "6c550cca-c87a-4d6e-abcf-b1e098f48cc8",
+        "2702459b-0b60-41a8-9e66-e2144e0c6267"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          11000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 1,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 11000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억1000",
+      "room_desc": "원룸 | 1층 | 29.7m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "1층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "가스레인지",
+        "냉장고",
+        "신발장",
+        "비데",
+        "전자도어락"
+      ],
+      "refresh": false,
+      "remaining_days": 17,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차",
+        "#반려동물"
+      ],
+      "photo": [
+        {
+          "key": "a65e10c6-d54b-4f9c-bec7-f2051c359d3e",
+          "desc": ""
+        },
+        {
+          "key": "b8a3c0c1-2b06-459c-aafa-b8732c8985f7",
+          "desc": ""
+        },
+        {
+          "key": "35a427bd-180c-4281-a5f0-5f7cc08baae7",
+          "desc": ""
+        },
+        {
+          "key": "49687b51-8476-4eb6-a3e9-2a0ea5af514c",
+          "desc": ""
+        },
+        {
+          "key": "28360aa3-2ef8-4948-ada0-449a5372910f",
+          "desc": ""
+        },
+        {
+          "key": "63fdc371-2c3b-4fb2-a910-a4c43d8f26fa",
+          "desc": ""
+        },
+        {
+          "key": "6c550cca-c87a-4d6e-abcf-b1e098f48cc8",
+          "desc": ""
+        },
+        {
+          "key": "2702459b-0b60-41a8-9e66-e2144e0c6267",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/a65e10c6-d54b-4f9c-bec7-f2051c359d3e",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억1000",
+      "saved-time": "2018-03-27T11:29:30.451Z",
+      "_id": "5aba2b1ab3e5fc69a8214460",
+      "room-size-m2": 29.7
+    },
+    {
+      "seq": 3929824,
+      "id": "5ac202a02e38202bab4f4642",
+      "user_id": "ww1145@naver.com",
+      "name": "강주연",
+      "agent_id": "5a8d00807611e77c54ddd97b",
+      "saved_time": "2018-04-02T10:14:56.741Z",
+      "actived_time": "2018-04-04T07:04:52.227Z",
+      "status": 1,
+      "view_count": 218,
+      "processing": false,
+      "title": "♡♡♡석촌역도보3분거리,시세대비A급물건♡♡♡",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.1085550003,
+        37.5080112041
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 3,
+      "room_options": [],
+      "room_size": 42.9,
+      "room_type": 1,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "a61ca9e3-7cea-41e0-bed6-224439776db7",
+        "3e24cfd0-e09e-42ce-9934-24492457e0e3",
+        "4d2671fc-356e-4145-822b-e51211f8d45e",
+        "6b32d6ff-b15a-4961-aa78-1d1baf23381a",
+        "ebb18c0c-998d-41e7-8e67-a7ac5fad5522",
+        "b9768e66-2e88-4de2-ad20-bc5c5d15307d",
+        "7efa5d6a-6594-4bad-8948-5a8a682e6f45"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          2000,
+          55,
+          0
+        ],
+        [
+          14000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 1,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 14000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "투룸 전세",
+      "price_title": "1억4000",
+      "room_desc": "투룸 | 3층 | 42.9m² | 관리비 3만원",
+      "room_type_str": "투룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "3층",
+      "building_floor_str": "",
+      "options": [],
+      "refresh": false,
+      "remaining_days": 24,
+      "is_pano": false,
+      "hash_tags": [
+        "#월세가능"
+      ],
+      "photo": [
+        {
+          "key": "a61ca9e3-7cea-41e0-bed6-224439776db7",
+          "desc": ""
+        },
+        {
+          "key": "3e24cfd0-e09e-42ce-9934-24492457e0e3",
+          "desc": ""
+        },
+        {
+          "key": "4d2671fc-356e-4145-822b-e51211f8d45e",
+          "desc": ""
+        },
+        {
+          "key": "6b32d6ff-b15a-4961-aa78-1d1baf23381a",
+          "desc": ""
+        },
+        {
+          "key": "ebb18c0c-998d-41e7-8e67-a7ac5fad5522",
+          "desc": ""
+        },
+        {
+          "key": "b9768e66-2e88-4de2-ad20-bc5c5d15307d",
+          "desc": ""
+        },
+        {
+          "key": "7efa5d6a-6594-4bad-8948-5a8a682e6f45",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/a61ca9e3-7cea-41e0-bed6-224439776db7",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "투룸 전세",
+      "price-title": "1억4000",
+      "saved-time": "2018-04-02T10:14:56.741Z",
+      "_id": "5ac202a02e38202bab4f4642",
+      "room-size-m2": 42.9
+    },
+    {
+      "seq": 3896941,
+      "id": "5abc47ee2eaa2b47f649b87e",
+      "user_id": "hjg429@naver.com",
+      "name": "홍재균",
+      "agent_id": "592cd24472f024429ab36c19",
+      "saved_time": "2018-03-29T01:57:02.420Z",
+      "actived_time": "2018-04-07T11:16:16.409Z",
+      "status": 1,
+      "view_count": 54,
+      "processing": false,
+      "title": "⏩⏩ Check Point ⏪⏪ 석촌호수 근거리 신축급 넓은 원룸전세~",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0981239023691,
+        37.50562365702893
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        11,
+        1,
+        0,
+        6,
+        9,
+        7
+      ],
+      "room_size": 29.7,
+      "room_type": 5,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "d56cd607-6142-4868-af1f-9676e04b3729",
+        "7d876bb7-cea4-4568-8065-ec01c05a3922",
+        "faafe83e-5b76-41d8-80d4-6f6e27bfd2db",
+        "68565c25-7242-488a-ae5f-eb1833feacd1",
+        "7ee02624-7032-4ac3-a40f-0c9292fbe1fc",
+        "a20593cc-df00-413d-9554-d110b1ce1abb",
+        "91900b71-0e4e-46d1-89ed-907f88dae7f8",
+        "ef1a4afc-ebb1-4940-b352-444b5a3fee72",
+        "ecb29e2a-be3b-45bb-acf2-57a9fb277951",
+        "8aedd584-7dec-44bb-9dbc-1f94824536b2",
+        "3eb742ef-d98b-4cb2-9cf8-5cbcc0f86302",
+        "f284499d-87dc-418e-8bfd-fcdf9a59e2b2",
+        "1e407b49-337a-495b-99d5-bde143936f74",
+        "75a8712e-6fdc-45c8-ae5a-3f0852ae610a"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          14500,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 14500,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "1.5룸 전세",
+      "price_title": "1억4500",
+      "room_desc": "1.5룸 | 2층 | 29.7m² | 관리비 3만원",
+      "room_type_str": "1.5룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "전자도어락",
+        "세탁기",
+        "에어컨",
+        "신발장",
+        "인덕션",
+        "냉장고"
+      ],
+      "refresh": false,
+      "remaining_days": 28,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "d56cd607-6142-4868-af1f-9676e04b3729",
+          "desc": ""
+        },
+        {
+          "key": "7d876bb7-cea4-4568-8065-ec01c05a3922",
+          "desc": ""
+        },
+        {
+          "key": "faafe83e-5b76-41d8-80d4-6f6e27bfd2db",
+          "desc": ""
+        },
+        {
+          "key": "68565c25-7242-488a-ae5f-eb1833feacd1",
+          "desc": ""
+        },
+        {
+          "key": "7ee02624-7032-4ac3-a40f-0c9292fbe1fc",
+          "desc": ""
+        },
+        {
+          "key": "a20593cc-df00-413d-9554-d110b1ce1abb",
+          "desc": ""
+        },
+        {
+          "key": "91900b71-0e4e-46d1-89ed-907f88dae7f8",
+          "desc": ""
+        },
+        {
+          "key": "ef1a4afc-ebb1-4940-b352-444b5a3fee72",
+          "desc": ""
+        },
+        {
+          "key": "ecb29e2a-be3b-45bb-acf2-57a9fb277951",
+          "desc": ""
+        },
+        {
+          "key": "8aedd584-7dec-44bb-9dbc-1f94824536b2",
+          "desc": ""
+        },
+        {
+          "key": "3eb742ef-d98b-4cb2-9cf8-5cbcc0f86302",
+          "desc": ""
+        },
+        {
+          "key": "f284499d-87dc-418e-8bfd-fcdf9a59e2b2",
+          "desc": ""
+        },
+        {
+          "key": "1e407b49-337a-495b-99d5-bde143936f74",
+          "desc": ""
+        },
+        {
+          "key": "75a8712e-6fdc-45c8-ae5a-3f0852ae610a",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/d56cd607-6142-4868-af1f-9676e04b3729",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "1.5룸 전세",
+      "price-title": "1억4500",
+      "saved-time": "2018-03-29T01:57:02.420Z",
+      "_id": "5abc47ee2eaa2b47f649b87e",
+      "room-size-m2": 29.7
+    },
+    {
+      "seq": 3924732,
+      "id": "5ac18bad34d88c7fc342b2fc",
+      "user_id": "1111jm@naver.com",
+      "name": "임재학",
+      "agent_id": "5a78e61e485f5a688ae2de56",
+      "saved_time": "2018-04-02T01:47:25.553Z",
+      "actived_time": "2018-04-02T01:47:25.553Z",
+      "status": 1,
+      "view_count": 50,
+      "processing": false,
+      "title": "석촌호수 인근의 금액좋은 반지층 투룸입니다.",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0994614232,
+        37.5044476279
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": -1,
+      "room_options": [],
+      "room_size": 49.5,
+      "room_type": 1,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "2f419577-66d5-4fd4-b8a6-de1f36b0516e",
+        "7742497a-0030-4876-80c3-6f01e1067df1",
+        "4e9f4a31-9a81-4b75-8fb6-75a391caf615",
+        "9f838835-ed77-44df-af08-e2213c397ea4",
+        "a63d5fc7-1015-4380-90c8-dde6403f8de1",
+        "5c514b55-b1fd-4467-b60d-27db4151c499",
+        "a231097e-cd95-4178-b515-34cf34ee312c",
+        "d3c4ee31-3ae0-4b37-af13-4f98169645b6",
+        "8d343a0f-1e97-429e-af78-fa6929126e8c"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          11000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 11000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "투룸 전세",
+      "price_title": "1억1000",
+      "room_desc": "투룸 | 반지층 | 49.5m² | 관리비 3만원",
+      "room_type_str": "투룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "반지층",
+      "building_floor_str": "",
+      "options": [],
+      "refresh": false,
+      "remaining_days": 22,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "2f419577-66d5-4fd4-b8a6-de1f36b0516e",
+          "desc": ""
+        },
+        {
+          "key": "7742497a-0030-4876-80c3-6f01e1067df1",
+          "desc": ""
+        },
+        {
+          "key": "4e9f4a31-9a81-4b75-8fb6-75a391caf615",
+          "desc": ""
+        },
+        {
+          "key": "9f838835-ed77-44df-af08-e2213c397ea4",
+          "desc": ""
+        },
+        {
+          "key": "a63d5fc7-1015-4380-90c8-dde6403f8de1",
+          "desc": ""
+        },
+        {
+          "key": "5c514b55-b1fd-4467-b60d-27db4151c499",
+          "desc": ""
+        },
+        {
+          "key": "a231097e-cd95-4178-b515-34cf34ee312c",
+          "desc": ""
+        },
+        {
+          "key": "d3c4ee31-3ae0-4b37-af13-4f98169645b6",
+          "desc": ""
+        },
+        {
+          "key": "8d343a0f-1e97-429e-af78-fa6929126e8c",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/2f419577-66d5-4fd4-b8a6-de1f36b0516e",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "투룸 전세",
+      "price-title": "1억1000",
+      "saved-time": "2018-04-02T01:47:25.553Z",
+      "_id": "5ac18bad34d88c7fc342b2fc",
+      "room-size-m2": 49.5
+    },
+    {
+      "seq": 3309712,
+      "id": "5a3899128b10817f412763af",
+      "user_id": "onno1991@hanmail.net",
+      "name": "박정기",
+      "agent_id": "56b17fe6dffd1c0be485aa5c",
+      "saved_time": "2017-12-19T04:44:02.369Z",
+      "actived_time": "2018-03-22T10:58:40.078Z",
+      "status": 1,
+      "view_count": 824,
+      "processing": false,
+      "title": "❤신축!! 사방이 창문!!귀한 전세!!❤구조 좋고 채광까지 좋은방 선착순으로 모십니다❤",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.103103263,
+        37.504549022
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 5.0,
+      "maintenance": true,
+      "room_floor": 3,
+      "room_options": [
+        0,
+        1,
+        7,
+        8,
+        6,
+        11
+      ],
+      "room_size": 26.4,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "fcddad15-7886-4ded-bc09-94ba154c7fe3",
+        "856047a3-96d0-4f0a-9e94-1c00483b1d17",
+        "368de40a-462c-4c51-adca-5a081c553efa",
+        "5a0fe1bb-c4e5-4f8f-8e28-2236948d306d",
+        "7489f80f-566c-46aa-8f2e-9884780eb20a",
+        "c848ba30-7d4d-4dab-91d0-a07a95eaf1ce",
+        "129a8ba1-ff34-4d66-a391-a34b469ae75c",
+        "ed9053a8-0c69-43b3-af18-f00a4328462c"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          13000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 8,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 13000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억3000",
+      "room_desc": "원룸 | 3층 | 26.4m² | 관리비 5만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "3층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "가스레인지",
+        "신발장",
+        "전자도어락"
+      ],
+      "refresh": true,
+      "remaining_days": 12,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "fcddad15-7886-4ded-bc09-94ba154c7fe3",
+          "desc": ""
+        },
+        {
+          "key": "856047a3-96d0-4f0a-9e94-1c00483b1d17",
+          "desc": ""
+        },
+        {
+          "key": "368de40a-462c-4c51-adca-5a081c553efa",
+          "desc": ""
+        },
+        {
+          "key": "5a0fe1bb-c4e5-4f8f-8e28-2236948d306d",
+          "desc": ""
+        },
+        {
+          "key": "7489f80f-566c-46aa-8f2e-9884780eb20a",
+          "desc": ""
+        },
+        {
+          "key": "c848ba30-7d4d-4dab-91d0-a07a95eaf1ce",
+          "desc": ""
+        },
+        {
+          "key": "129a8ba1-ff34-4d66-a391-a34b469ae75c",
+          "desc": ""
+        },
+        {
+          "key": "ed9053a8-0c69-43b3-af18-f00a4328462c",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/fcddad15-7886-4ded-bc09-94ba154c7fe3",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억3000",
+      "saved-time": "2017-12-19T04:44:02.369Z",
+      "_id": "5a3899128b10817f412763af",
+      "room-size-m2": 26.4
+    },
+    {
+      "seq": 3532893,
+      "id": "5a7a9e69177be244ab997813",
+      "user_id": "moa739800@daum.net",
+      "name": "안상옥",
+      "agent_id": "58631f72c5dc547f8d5f21f0",
+      "saved_time": "2018-02-07T06:36:25.568Z",
+      "actived_time": "2018-03-10T01:55:02.496Z",
+      "status": 1,
+      "view_count": 188,
+      "processing": false,
+      "title": "♡♡석촌상단 호수인근 준신축 2층 분리형 풀옵션♡♡",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0981239023691,
+        37.50562365702893
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        7,
+        6,
+        8
+      ],
+      "room_size": 26.4,
+      "room_type": 5,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "30d2a12c-455c-46a2-8346-d96a8fe889b8",
+        "94739120-f69d-4a6f-9cc4-51b931814fe4",
+        "a1785c57-5f36-4d7d-b3e0-25b70f507e89",
+        "20eb0ada-2ab4-4619-997e-a59e0dec1108",
+        "1872ed73-080e-431a-87d0-d9b59d2c0ca7"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          15000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 1,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 15000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "1.5룸 전세",
+      "price_title": "1억5000",
+      "room_desc": "1.5룸 | 2층 | 26.4m² | 관리비 3만원",
+      "room_type_str": "1.5룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "냉장고",
+        "신발장",
+        "가스레인지"
+      ],
+      "refresh": true,
+      "remaining_days": 0,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "30d2a12c-455c-46a2-8346-d96a8fe889b8",
+          "desc": ""
+        },
+        {
+          "key": "94739120-f69d-4a6f-9cc4-51b931814fe4",
+          "desc": ""
+        },
+        {
+          "key": "a1785c57-5f36-4d7d-b3e0-25b70f507e89",
+          "desc": ""
+        },
+        {
+          "key": "20eb0ada-2ab4-4619-997e-a59e0dec1108",
+          "desc": ""
+        },
+        {
+          "key": "1872ed73-080e-431a-87d0-d9b59d2c0ca7",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/30d2a12c-455c-46a2-8346-d96a8fe889b8",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "1.5룸 전세",
+      "price-title": "1억5000",
+      "saved-time": "2018-02-07T06:36:25.568Z",
+      "_id": "5a7a9e69177be244ab997813",
+      "room-size-m2": 26.4
+    },
+    {
+      "seq": 2885061,
+      "id": "59cb38f1fa572555a43bcbd0",
+      "user_id": "bank420@hanmail.net",
+      "name": "강성룡",
+      "agent_id": "55dd54499bb22d48fc71982b",
+      "saved_time": "2017-09-27T05:36:49.512Z",
+      "actived_time": "2018-03-16T01:03:19.747Z",
+      "status": 1,
+      "view_count": 1673,
+      "processing": false,
+      "title": "석촌역세권/싸고좋은방/채광좋은/가라인/융자무",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.111671539,
+        37.5046097091
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 4.0,
+      "maintenance": true,
+      "room_floor": -1,
+      "room_options": [
+        6
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "aca6bb8b-3d6a-4416-a634-cd19904da17d",
+        "83703d70-2910-4f76-875f-1d232a067b76",
+        "767496e7-f24e-4b6f-9021-7db288fce2b8",
+        "7ab509d7-e9c6-4b1a-9de5-8d1d25f27839",
+        "bc25ec60-733b-4619-bdce-7ba26a4b4646",
+        "cb9b6d98-fb5b-4c83-b35b-c0cd6f6d1fca",
+        "92fae871-173e-4f46-90bb-7d2cedac5042",
+        "c3e83c11-cc22-4485-b325-98a8c19592d4",
+        "c68c975f-79d7-4641-ab87-4bb069ce535f",
+        "f848fdb2-59f5-4685-a18c-ab60d51955f5",
+        "25f47b5c-9b13-4976-88ac-7cb730650b21",
+        "e27fa2da-6737-484c-85be-a6caad22e6ee",
+        "4b7e9cc8-339b-4262-9597-3980d19cb3b2",
+        "868741ac-a029-484d-8781-09833dc8ac68",
+        "936e678b-acb4-4f24-bbae-f0ed88914db6",
+        "b69f2d03-2ccf-4d16-a355-13e6cc7c247e",
+        "b876c8d1-7380-43b3-9e6a-ac9e2e59f28c",
+        "8b4bd2c9-48ed-4816-9fbd-74fc11594f5b",
+        "aa7c12b0-4907-4053-b4e2-4321c034c0be"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          4500,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 5,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 4500,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "4500",
+      "room_desc": "원룸 | 반지층 | 23.1m² | 관리비 4만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "반지층",
+      "building_floor_str": "",
+      "options": [
+        "신발장"
+      ],
+      "refresh": true,
+      "remaining_days": 5,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "aca6bb8b-3d6a-4416-a634-cd19904da17d",
+          "desc": ""
+        },
+        {
+          "key": "83703d70-2910-4f76-875f-1d232a067b76",
+          "desc": ""
+        },
+        {
+          "key": "767496e7-f24e-4b6f-9021-7db288fce2b8",
+          "desc": ""
+        },
+        {
+          "key": "7ab509d7-e9c6-4b1a-9de5-8d1d25f27839",
+          "desc": ""
+        },
+        {
+          "key": "bc25ec60-733b-4619-bdce-7ba26a4b4646",
+          "desc": ""
+        },
+        {
+          "key": "cb9b6d98-fb5b-4c83-b35b-c0cd6f6d1fca",
+          "desc": ""
+        },
+        {
+          "key": "92fae871-173e-4f46-90bb-7d2cedac5042",
+          "desc": ""
+        },
+        {
+          "key": "c3e83c11-cc22-4485-b325-98a8c19592d4",
+          "desc": ""
+        },
+        {
+          "key": "c68c975f-79d7-4641-ab87-4bb069ce535f",
+          "desc": ""
+        },
+        {
+          "key": "f848fdb2-59f5-4685-a18c-ab60d51955f5",
+          "desc": ""
+        },
+        {
+          "key": "25f47b5c-9b13-4976-88ac-7cb730650b21",
+          "desc": ""
+        },
+        {
+          "key": "e27fa2da-6737-484c-85be-a6caad22e6ee",
+          "desc": ""
+        },
+        {
+          "key": "4b7e9cc8-339b-4262-9597-3980d19cb3b2",
+          "desc": ""
+        },
+        {
+          "key": "868741ac-a029-484d-8781-09833dc8ac68",
+          "desc": ""
+        },
+        {
+          "key": "936e678b-acb4-4f24-bbae-f0ed88914db6",
+          "desc": ""
+        },
+        {
+          "key": "b69f2d03-2ccf-4d16-a355-13e6cc7c247e",
+          "desc": ""
+        },
+        {
+          "key": "b876c8d1-7380-43b3-9e6a-ac9e2e59f28c",
+          "desc": ""
+        },
+        {
+          "key": "8b4bd2c9-48ed-4816-9fbd-74fc11594f5b",
+          "desc": ""
+        },
+        {
+          "key": "aa7c12b0-4907-4053-b4e2-4321c034c0be",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/aca6bb8b-3d6a-4416-a634-cd19904da17d",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "4500",
+      "saved-time": "2017-09-27T05:36:49.512Z",
+      "_id": "59cb38f1fa572555a43bcbd0",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3918969,
+      "id": "5abf35bdc140ca180bc6c6f7",
+      "user_id": "uen2000@naver.com",
+      "name": "박채윤",
+      "agent_id": "59a7805b680fc2773adf9e3a",
+      "saved_time": "2018-03-31T07:16:13.894Z",
+      "actived_time": "2018-03-31T07:16:13.894Z",
+      "status": 1,
+      "view_count": 101,
+      "processing": false,
+      "title": "방상단 2룸   공간굿  ~~밝은반지층",
+      "address": "서울특별시 송파구 방이동",
+      "location": [
+        127.1103621398,
+        37.5124676979
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 2.5,
+      "maintenance": true,
+      "room_floor": -1,
+      "room_options": [],
+      "room_size": 36.3,
+      "room_type": 1,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "13d45e17-9ed0-4ec2-875d-01b013b423af",
+        "7ea6c45c-4d81-4577-96b7-e5b57359d7c7",
+        "577b9fb6-f26e-468c-9f56-e5c874f29c5d",
+        "9b8cb4e3-73a4-475c-8cab-0f3f935b8b25",
+        "675db8b7-0c00-4e58-b215-ae4630e439fb",
+        "ce6953bb-3d6a-40a2-82f6-7aaff3146c60",
+        "ed5d2037-a500-4694-9860-db917db0cb09",
+        "0b972ec3-7a47-458a-88ea-da16c15fe497"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          10000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 10000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "투룸 전세",
+      "price_title": "1억",
+      "room_desc": "투룸 | 반지층 | 36.3m² | 관리비 2.5만원",
+      "room_type_str": "투룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "반지층",
+      "building_floor_str": "",
+      "options": [],
+      "refresh": false,
+      "remaining_days": 20,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "13d45e17-9ed0-4ec2-875d-01b013b423af",
+          "desc": ""
+        },
+        {
+          "key": "7ea6c45c-4d81-4577-96b7-e5b57359d7c7",
+          "desc": ""
+        },
+        {
+          "key": "577b9fb6-f26e-468c-9f56-e5c874f29c5d",
+          "desc": ""
+        },
+        {
+          "key": "9b8cb4e3-73a4-475c-8cab-0f3f935b8b25",
+          "desc": ""
+        },
+        {
+          "key": "675db8b7-0c00-4e58-b215-ae4630e439fb",
+          "desc": ""
+        },
+        {
+          "key": "ce6953bb-3d6a-40a2-82f6-7aaff3146c60",
+          "desc": ""
+        },
+        {
+          "key": "ed5d2037-a500-4694-9860-db917db0cb09",
+          "desc": ""
+        },
+        {
+          "key": "0b972ec3-7a47-458a-88ea-da16c15fe497",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/13d45e17-9ed0-4ec2-875d-01b013b423af",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "투룸 전세",
+      "price-title": "1억",
+      "saved-time": "2018-03-31T07:16:13.894Z",
+      "_id": "5abf35bdc140ca180bc6c6f7",
+      "room-size-m2": 36.3
+    },
+    {
+      "seq": 3612113,
+      "id": "5a951f4b50b4c37f72274836",
+      "user_id": "sims555@hanmail.net",
+      "name": "김대현",
+      "agent_id": "5a94b8c642492376d923bf1f",
+      "saved_time": "2018-02-27T09:05:15.816Z",
+      "actived_time": "2018-04-04T05:41:29.374Z",
+      "status": 1,
+      "view_count": 917,
+      "processing": false,
+      "title": "역세권에 위치한 깔끔한 옥탑방 원룸",
+      "address": "서울특별시 송파구 방이동",
+      "location": [
+        127.1103621398,
+        37.5124676979
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 0,
+      "room_options": [],
+      "room_size": 33.0,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "8309e56c-e04a-4827-afdd-9b8301fff2e7",
+        "c5d01fb6-839a-47d0-981e-4d864630cae3",
+        "de33f7d9-5b81-4b91-a7bc-1b1c2cb1d1a9",
+        "9a7167d0-7dce-49b6-ae6f-f2a0a04f439f",
+        "532d4d16-bda9-4df1-8a61-b579c76041e3",
+        "af276f85-b89c-4334-bae2-f7f5de115b50",
+        "c803eda8-e53d-4217-b18d-6aa87344f168",
+        "2762df3c-811c-413c-9b16-9b9286893aee"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          7500,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 5,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 7500,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "7500",
+      "room_desc": "원룸 | 옥탑 | 33m² | 관리비 3만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "옥탑",
+      "building_floor_str": "",
+      "options": [],
+      "refresh": false,
+      "remaining_days": 24,
+      "is_pano": false,
+      "hash_tags": [],
+      "photo": [
+        {
+          "key": "8309e56c-e04a-4827-afdd-9b8301fff2e7",
+          "desc": ""
+        },
+        {
+          "key": "c5d01fb6-839a-47d0-981e-4d864630cae3",
+          "desc": ""
+        },
+        {
+          "key": "de33f7d9-5b81-4b91-a7bc-1b1c2cb1d1a9",
+          "desc": ""
+        },
+        {
+          "key": "9a7167d0-7dce-49b6-ae6f-f2a0a04f439f",
+          "desc": ""
+        },
+        {
+          "key": "532d4d16-bda9-4df1-8a61-b579c76041e3",
+          "desc": ""
+        },
+        {
+          "key": "af276f85-b89c-4334-bae2-f7f5de115b50",
+          "desc": ""
+        },
+        {
+          "key": "c803eda8-e53d-4217-b18d-6aa87344f168",
+          "desc": ""
+        },
+        {
+          "key": "2762df3c-811c-413c-9b16-9b9286893aee",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/8309e56c-e04a-4827-afdd-9b8301fff2e7",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "7500",
+      "saved-time": "2018-02-27T09:05:15.816Z",
+      "_id": "5a951f4b50b4c37f72274836",
+      "room-size-m2": 33.0
+    },
+    {
+      "seq": 2147892,
+      "id": "590d9687eb4f814c8139ae4b",
+      "user_id": "bazak@daum.net",
+      "name": "홍경화",
+      "agent_id": "53dee6aee4b0f94c1e84d34b",
+      "saved_time": "2017-05-06T09:25:27.176Z",
+      "actived_time": "2018-03-28T06:34:28.600Z",
+      "status": 1,
+      "view_count": 2232,
+      "processing": false,
+      "title": "◆석촌역 5분 저렴한 원룸 교통 편리◆",
+      "address": "서울특별시 송파구 송파동",
+      "location": [
+        127.1116842408,
+        37.5040258459
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": null,
+      "maintenance": false,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        11,
+        7,
+        8
+      ],
+      "room_size": 19.8,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "9c62a796-c5a4-46ab-8e76-f24340b6d7fb",
+        "16274feb-c483-4cc3-8ab7-0ba2fba3f7b8",
+        "edc33bff-14ee-445b-9e6c-6ff80eb5026b",
+        "fa19f526-2e1b-4003-b86a-6127b7a5f067",
+        "1e1b4a0f-5d03-4797-8c4f-20f4d9530ace",
+        "2ad9d6ab-0b77-4468-b4d0-04d16afc928a",
+        "51359ad4-df15-4ced-b734-bad5ee246ab7",
+        "bbea4cb3-4eb0-47c0-990a-e7f8efea1a46",
+        "f1a62dc0-c107-4d5e-abe7-180be8270b29",
+        "09156718-3884-4fe7-8775-894fc2a63bde",
+        "3e5cb48e-d929-44ca-85bc-e94a22d0b656",
+        "e88f045c-dd1e-49b2-b54e-4450b30675ef"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          500,
+          40,
+          0
+        ],
+        [
+          9500,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 11,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 9500,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "9500",
+      "room_desc": "원룸 | 2층 | 19.8m²",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "전자도어락",
+        "냉장고",
+        "가스레인지"
+      ],
+      "refresh": false,
+      "remaining_days": 17,
+      "is_pano": false,
+      "hash_tags": [
+        "#월세가능"
+      ],
+      "photo": [
+        {
+          "key": "9c62a796-c5a4-46ab-8e76-f24340b6d7fb",
+          "desc": ""
+        },
+        {
+          "key": "16274feb-c483-4cc3-8ab7-0ba2fba3f7b8",
+          "desc": ""
+        },
+        {
+          "key": "edc33bff-14ee-445b-9e6c-6ff80eb5026b",
+          "desc": ""
+        },
+        {
+          "key": "fa19f526-2e1b-4003-b86a-6127b7a5f067",
+          "desc": ""
+        },
+        {
+          "key": "1e1b4a0f-5d03-4797-8c4f-20f4d9530ace",
+          "desc": ""
+        },
+        {
+          "key": "2ad9d6ab-0b77-4468-b4d0-04d16afc928a",
+          "desc": ""
+        },
+        {
+          "key": "51359ad4-df15-4ced-b734-bad5ee246ab7",
+          "desc": ""
+        },
+        {
+          "key": "bbea4cb3-4eb0-47c0-990a-e7f8efea1a46",
+          "desc": ""
+        },
+        {
+          "key": "f1a62dc0-c107-4d5e-abe7-180be8270b29",
+          "desc": ""
+        },
+        {
+          "key": "09156718-3884-4fe7-8775-894fc2a63bde",
+          "desc": ""
+        },
+        {
+          "key": "3e5cb48e-d929-44ca-85bc-e94a22d0b656",
+          "desc": ""
+        },
+        {
+          "key": "e88f045c-dd1e-49b2-b54e-4450b30675ef",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/9c62a796-c5a4-46ab-8e76-f24340b6d7fb",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "9500",
+      "saved-time": "2017-05-06T09:25:27.176Z",
+      "_id": "590d9687eb4f814c8139ae4b",
+      "room-size-m2": 19.8
+    },
+    {
+      "seq": 3876738,
+      "id": "5ab994c8ba59ed65b56303b7",
+      "user_id": "gil3379@naver.com",
+      "name": "허성길",
+      "agent_id": "5ab85bfc9e1d13769b5a248c",
+      "saved_time": "2018-03-27T00:48:08.588Z",
+      "actived_time": "2018-03-27T00:48:08.588Z",
+      "status": 1,
+      "view_count": 347,
+      "processing": false,
+      "title": "♥석촌동 수리완료! 저렴한 투룸♥",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.0984348082,
+        37.5046755411
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 3,
+      "room_options": [
+        6
+      ],
+      "room_size": 39.6,
+      "room_type": 1,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "01add782-2fd9-4f4b-8624-e71099e7521f",
+        "3ed67465-f572-449e-88be-82da1d6d1635",
+        "1a044fa6-3c0a-475a-8654-222d1b7778f7",
+        "517cabde-4a40-4f7e-831f-14227b0487a3",
+        "a97dd10b-367b-45eb-912a-3af9ed6bacfb"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          12000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 4,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 12000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "투룸 전세",
+      "price_title": "1억2000",
+      "room_desc": "투룸 | 3층 | 39.6m² | 관리비 3만원",
+      "room_type_str": "투룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "3층",
+      "building_floor_str": "",
+      "options": [
+        "신발장"
+      ],
+      "refresh": false,
+      "remaining_days": 16,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "01add782-2fd9-4f4b-8624-e71099e7521f",
+          "desc": ""
+        },
+        {
+          "key": "3ed67465-f572-449e-88be-82da1d6d1635",
+          "desc": ""
+        },
+        {
+          "key": "1a044fa6-3c0a-475a-8654-222d1b7778f7",
+          "desc": ""
+        },
+        {
+          "key": "517cabde-4a40-4f7e-831f-14227b0487a3",
+          "desc": ""
+        },
+        {
+          "key": "a97dd10b-367b-45eb-912a-3af9ed6bacfb",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/01add782-2fd9-4f4b-8624-e71099e7521f",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "투룸 전세",
+      "price-title": "1억2000",
+      "saved-time": "2018-03-27T00:48:08.588Z",
+      "_id": "5ab994c8ba59ed65b56303b7",
+      "room-size-m2": 39.6
+    },
+    {
+      "seq": 3957823,
+      "id": "5ac58dc743d66a61887c8aa5",
+      "user_id": "cbk0712@hanmail.net",
+      "name": "최보경",
+      "agent_id": "58a13f3a8681ac0265a8db00",
+      "saved_time": "2018-04-05T02:45:27.638Z",
+      "actived_time": "2018-04-09T08:55:37.660Z",
+      "status": 1,
+      "view_count": 48,
+      "processing": false,
+      "title": "신축  풀옵션 원룸   ",
+      "address": "서울특별시 송파구 방이동",
+      "location": [
+        127.1102752549,
+        37.5118406804
+      ],
+      "animal": false,
+      "parking": true,
+      "pano": null,
+      "maintenance_cost": 5.0,
+      "maintenance": true,
+      "room_floor": 2,
+      "room_options": [
+        0,
+        1,
+        6,
+        7,
+        9,
+        11
+      ],
+      "room_size": 23.1,
+      "room_type": 0,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "0e9fd1f1-a3ae-4b4d-b943-b0da2c7939a6",
+        "42674ac3-6573-4a89-afa8-398efbe779d4",
+        "f2a95250-c845-4a18-ae17-09f4f76d568f",
+        "16a49520-8f8f-497f-8dc0-a7722126f229",
+        "603098be-5349-48d3-bbe8-a63a93422b29",
+        "11a4e12d-23f4-4f9b-82d2-e11b252c557b",
+        "b7ebede6-7efc-4703-a5cd-56c24274478a",
+        "66255fd0-226c-4d59-92f4-decaddddb9b4",
+        "96a77afb-7078-49ad-8bf6-ed8e62f15eb3"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          14000,
+          0,
+          1
+        ]
+      ],
+      "favorite_count": 0,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 14000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "원룸 전세",
+      "price_title": "1억4000",
+      "room_desc": "원룸 | 2층 | 23.1m² | 관리비 5만원",
+      "room_type_str": "원룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "2층",
+      "building_floor_str": "",
+      "options": [
+        "에어컨",
+        "세탁기",
+        "신발장",
+        "냉장고",
+        "인덕션",
+        "전자도어락"
+      ],
+      "refresh": false,
+      "remaining_days": 29,
+      "is_pano": false,
+      "hash_tags": [
+        "#주차"
+      ],
+      "photo": [
+        {
+          "key": "0e9fd1f1-a3ae-4b4d-b943-b0da2c7939a6",
+          "desc": ""
+        },
+        {
+          "key": "42674ac3-6573-4a89-afa8-398efbe779d4",
+          "desc": ""
+        },
+        {
+          "key": "f2a95250-c845-4a18-ae17-09f4f76d568f",
+          "desc": ""
+        },
+        {
+          "key": "16a49520-8f8f-497f-8dc0-a7722126f229",
+          "desc": ""
+        },
+        {
+          "key": "603098be-5349-48d3-bbe8-a63a93422b29",
+          "desc": ""
+        },
+        {
+          "key": "11a4e12d-23f4-4f9b-82d2-e11b252c557b",
+          "desc": ""
+        },
+        {
+          "key": "b7ebede6-7efc-4703-a5cd-56c24274478a",
+          "desc": ""
+        },
+        {
+          "key": "66255fd0-226c-4d59-92f4-decaddddb9b4",
+          "desc": ""
+        },
+        {
+          "key": "96a77afb-7078-49ad-8bf6-ed8e62f15eb3",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/0e9fd1f1-a3ae-4b4d-b943-b0da2c7939a6",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "원룸 전세",
+      "price-title": "1억4000",
+      "saved-time": "2018-04-05T02:45:27.638Z",
+      "_id": "5ac58dc743d66a61887c8aa5",
+      "room-size-m2": 23.1
+    },
+    {
+      "seq": 3642952,
+      "id": "5a9dec3f6879a7510df84544",
+      "user_id": "kgh3740@naver.com",
+      "name": "김기형",
+      "agent_id": "56848eb774fb654444df5ea1",
+      "saved_time": "2018-03-06T01:17:51.811Z",
+      "actived_time": "2018-03-21T08:11:16.268Z",
+      "status": 1,
+      "view_count": 619,
+      "processing": false,
+      "title": "올수리! 2룸 전세",
+      "address": "서울특별시 송파구 석촌동",
+      "location": [
+        127.1007700549,
+        37.5053691479
+      ],
+      "animal": false,
+      "parking": false,
+      "pano": null,
+      "maintenance_cost": 3.0,
+      "maintenance": true,
+      "room_floor": 1,
+      "room_options": [
+        6,
+        11
+      ],
+      "room_size": 39.6,
+      "room_type": 1,
+      "tags": [
+        "중개",
+        "전세가능"
+      ],
+      "short_lease": false,
+      "photos": [
+        "550f1f68-33a4-4797-8836-0850cdd06e5c",
+        "ffaf2f12-7f24-4261-bb88-1504d9a00b66",
+        "7a4aed57-aeeb-487b-a3d4-af9f87678e0c",
+        "6efb7a06-5ff2-47ad-90e5-9ac29378e4d1",
+        "4c8c1b1e-3962-4f74-ab90-5d873bdb1399",
+        "3a19e694-3d5b-4ef0-9ab9-53c4ba4c432d",
+        "fa8cc8dc-d5e6-4b82-a65b-bf4da4c7855e"
+      ],
+      "report_check_comment": null,
+      "report_check_saved_time": null,
+      "price_info": [
+        [
+          15000,
+          0,
+          1
+        ],
+        [
+          7000,
+          40,
+          0
+        ],
+        [
+          5000,
+          50,
+          0
+        ]
+      ],
+      "favorite_count": 7,
+      "recommend": null,
+      "deleted": null,
+      "card": false,
+      "deposit": 15000,
+      "price": 0,
+      "selling_type": 1,
+      "room_title": "투룸 전세",
+      "price_title": "1억5000",
+      "room_desc": "투룸 | 1층 | 39.6m² | 관리비 3만원",
+      "room_type_str": "투룸",
+      "maintenance_items_str": [],
+      "heating": null,
+      "floor": "1층",
+      "building_floor_str": "",
+      "options": [
+        "신발장",
+        "전자도어락"
+      ],
+      "refresh": true,
+      "remaining_days": 10,
+      "is_pano": false,
+      "hash_tags": [
+        "#월세가능"
+      ],
+      "photo": [
+        {
+          "key": "550f1f68-33a4-4797-8836-0850cdd06e5c",
+          "desc": ""
+        },
+        {
+          "key": "ffaf2f12-7f24-4261-bb88-1504d9a00b66",
+          "desc": ""
+        },
+        {
+          "key": "7a4aed57-aeeb-487b-a3d4-af9f87678e0c",
+          "desc": ""
+        },
+        {
+          "key": "6efb7a06-5ff2-47ad-90e5-9ac29378e4d1",
+          "desc": ""
+        },
+        {
+          "key": "4c8c1b1e-3962-4f74-ab90-5d873bdb1399",
+          "desc": ""
+        },
+        {
+          "key": "3a19e694-3d5b-4ef0-9ab9-53c4ba4c432d",
+          "desc": ""
+        },
+        {
+          "key": "fa8cc8dc-d5e6-4b82-a65b-bf4da4c7855e",
+          "desc": ""
+        }
+      ],
+      "img_url": "https://d1774jszgerdmk.cloudfront.net/512/550f1f68-33a4-4797-8836-0850cdd06e5c",
+      "premium_badge": null,
+      "private_memo": null,
+      "jibun_address": null,
+      "road_address": null,
+      "detail_address": null,
+      "room-title": "투룸 전세",
+      "price-title": "1억5000",
+      "saved-time": "2018-03-06T01:17:51.811Z",
+      "_id": "5a9dec3f6879a7510df84544",
+      "room-size-m2": 39.6
+    }
+  ],
+  "offset": 0,
+  "ad-banner": null,
+  "limit": 24,
+  "has-more": false,
+  "page": 1,
+  "total-str": "24"
+}

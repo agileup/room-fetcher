@@ -1,0 +1,155 @@
+{
+  "mapItems": [
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.50474676664836,
+      "lng": 127.11085860334632,
+      "sum_lat": 187.52486419677734,
+      "sum_lng": 635.5558166503906,
+      "view_count": 5,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.50474173588832,
+      "lng": 127.10930907692159,
+      "sum_lat": 112.5150032043457,
+      "sum_lng": 381.32691955566406,
+      "view_count": 3,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.505060601699206,
+      "lng": 127.10319498142478,
+      "sum_lat": 412.55854415893555,
+      "sum_lng": 1398.131820678711,
+      "view_count": 11,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.50541268291862,
+      "lng": 127.0979726422368,
+      "sum_lat": 75.01031875610352,
+      "sum_lng": 254.1965560913086,
+      "view_count": 2,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.50685714522718,
+      "lng": 127.10450639601378,
+      "sum_lat": 187.5331153869629,
+      "sum_lng": 635.5240936279297,
+      "view_count": 5,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.507170386894735,
+      "lng": 127.1070951293532,
+      "sum_lat": 187.53464889526367,
+      "sum_lng": 635.5340347290039,
+      "view_count": 5,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.507917000850746,
+      "lng": 127.11218319223514,
+      "sum_lat": 37.50768280029297,
+      "sum_lng": 127.11248016357422,
+      "view_count": 1,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.50979397383294,
+      "lng": 127.10970788113194,
+      "sum_lat": 75.02011373351843,
+      "sum_lng": 254.2188131614909,
+      "view_count": 2,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.51311300931688,
+      "lng": 127.11122629155695,
+      "sum_lat": 675.240777049759,
+      "sum_lng": 2288.008146137928,
+      "view_count": 18,
+      "result_type": "dong"
+    },
+    {
+      "id": 0,
+      "status": null,
+      "deposit": 0,
+      "rent": 0,
+      "lat": 37.514297189769955,
+      "lng": 127.1104461853457,
+      "sum_lat": 187.57261276245117,
+      "sum_lng": 635.5538940429688,
+      "view_count": 5,
+      "result_type": "dong"
+    }
+  ],
+  "count_all": 57,
+  "ads": [
+    {
+      "id": 26,
+      "name": "잠실새내역",
+      "lat": 37.5116359,
+      "lng": 127.085542,
+      "radius": 1
+    },
+    {
+      "id": 25,
+      "name": "잠실역",
+      "lat": 37.513342,
+      "lng": 127.100155,
+      "radius": 1
+    },
+    {
+      "id": 433,
+      "name": "석촌역",
+      "lat": 37.505438,
+      "lng": 127.106981,
+      "radius": 1
+    },
+    {
+      "id": 434,
+      "name": "송파역",
+      "lat": 37.499739,
+      "lng": 127.112201,
+      "radius": 1
+    }
+  ]
+}
