@@ -9,13 +9,13 @@
         body { padding-top: 20px; font-size: 14px; }
         .strong { font-weight: bold; }
         .col-thumb { width: 80px; height: 80px; text-align: center; }
-        .thumb { max-width: 80px; max-height: 80px; }
+        .thumb { max-height: 80px; }
     </style>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6">
+            <div class="col-4">
                 <div class="alert alert-primary">다방 / 총: <span class="strong dabang-total">0</span>개</div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -24,7 +24,6 @@
                             <th>photo</th>
                             <th>desc</th>
                             <th>view</th>
-                            <!-- <th>option</th> -->
                         </tr>
                     </thead>
                     <tbody class="dabang-result">
@@ -32,7 +31,7 @@
                     </table>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-4">
                 <div class="alert alert-warning">직방 / 총: <span class="strong zigbang-total">0</span>개</div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -41,7 +40,6 @@
                             <th>photo</th>
                             <th>desc</th>
                             <th>view</th>
-                            <!-- <th>option</th> -->
                         </tr>
                     </thead>
                     <tbody class="zigbang-result">
@@ -49,7 +47,22 @@
                     </table>
                 </div>
             </div>
-                
+            <div class="col-4">
+                <div class="alert alert-success">네이버 오피스텔 / 총: <span class="strong naver-total">0</span>개</div>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>photo</th>
+                            <th>desc</th>
+                            <!-- <th>view</th> -->
+                        </tr>
+                    </thead>
+                    <tbody class="naver-result">
+                    </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -79,7 +92,6 @@
                 $('.zigbang-total').text(rooms.length)
                 rooms.forEach(function(doc) {
                     var item = doc.item
-                    console.log(doc)
                     var link = `https://www.zigbang.com/items1/${item.id}`
                     var template = '<tr>'
                     template += `<td class="col-thumb"><img class="thumb" src="https://ic.zigbang.com/ic${item.images_thumbnail}" /></td>`
@@ -92,6 +104,27 @@
                 console.log('zigbang complete!')
             }).fail(function(err) {
                 console.error('zigbang error>', err)
+            })
+
+            $.get('/naver', function(data) {
+                var rooms = data.rooms
+                $('.naver-total').text(rooms.length)
+                rooms.forEach(function(doc) {
+                    // console.log(doc)
+                    var template = '<tr>'
+                    if (doc.representativeImgUrl) {
+                        template += `<td class="col-thumb"><img class="thumb" src="https://landthumb-phinf.pstatic.net${doc.representativeImgUrl}" /></td>`
+                    } else {
+                        template += '<td>-</td>'
+                    }
+                    template += `<td>${doc.articleName} <span class="strong">${doc.dealOrWarrantPrc}</span> / ${doc.articleConfirmYmd}<br/><a href="${doc.cpPcArticleUrl}" target="_blank">${doc.articleFeatureDesc}</a><br/>${doc.realEstateTypeName} | ${doc.floorInfo} | ${doc.direction} | ${doc.realtorName} <br/>${doc.tagList.join(',') || '-'}</td>`
+                    template += '</tr>'
+                    $('.naver-result').append(template)
+                })
+            }).done(function() {
+                console.log('naver complete!')
+            }).fail(function(err) {
+                console.error('naver error>', err)
             })
         }
     </script>

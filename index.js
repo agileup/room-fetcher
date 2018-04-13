@@ -4,7 +4,7 @@ var express = require('express')
 var app = express()
 var path = require('path')
 
-const MAX_DEPOSIT = 15000
+const MAX_DEPOSIT = 16000
 const MAX_RENT = 10
 
 // http://localhost:8080
@@ -39,27 +39,21 @@ const headers = {
     "X-Requested-With": "XMLHttpRequest"
 }
 
-// const interval = 1 * 10 * 1000 // 1m
-// const loop = setInterval(function() {
-    
-// }, interval) // 1m
-
 app.get('/fetch', function(req, res) {
     unirest.get(fetchUrl).header(headers).end(function(response) {
-        // console.log('response>', response.code)
         if (response.code !== 200) {
             console.error('api error>', response.body)
-            res.status(400).send({ message: response.body });
+            res.status(400).send({ message: response.body })
         } else {
             const body = response.body
             const rooms = body.rooms.sort(function(a,b) {
-                return new Date(b.saved_time) - new Date(a.saved_time);
+                return new Date(b.saved_time) - new Date(a.saved_time)
             })
             const results = {
                 total: body.total,
                 rooms: body.rooms
             }
-            res.status(200).send(results);
+            res.status(200).send(results)
         }
     })
 })
@@ -112,13 +106,41 @@ app.get('/zigbang', function(req, res) {
         } else {
             const total = results.details.items.length
             const rooms = results.details.items.sort(function(a,b) {
-                return new Date(b.item.updated_at2) - new Date(a.item.updated_at2);
+                return new Date(b.item.updated_at2) - new Date(a.item.updated_at2)
             })
             const result = {
                 total,
                 rooms,
             }
             res.status(200).send(result)
+        }
+    })
+})
+
+app.get('/naver', function(req, res) {
+    const nUrl = `https://new.land.naver.com/api/articles?cortarNo=1168000000&order=rank&realEstateType=OPST&tradeType=B1&tag=COMPLETION25UNDER%3A%3A%3A%3A%3A%3A%3A%3A&rentPriceMin=0&rentPriceMax=900000000&priceMin=7000&priceMax=16000&areaMin=23.1&areaMax=75.9&sameAddressGroup=false&page=1&articleState`
+    unirest.get(nUrl).header({
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Host": "new.land.naver.com",
+        "Referer": "https://new.land.naver.com/articles",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3395.0 Safari/537.36"
+    }).end(function(response) {
+        if (response.code !== 200) {
+            console.log('naver error>', response.code, response.body)
+            res.status(400).send({ message: response.body })
+        } else {
+            const body = response.body
+            const total = body.articleList.length
+            const rooms = body.articleList.sort(function(a,b) {
+                return parseInt(b.articleConfirmYmd) - parseInt(a.articleConfirmYmd)
+            })
+            const results = {
+                total,
+                rooms
+            }
+            res.status(200).send(results)
         }
     })
 })
