@@ -12,6 +12,10 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 })
 
+app.get('/officetel', function(req, res) {
+    res.sendFile(path.join(__dirname + '/officetel.html'));
+})
+
 var server = app.listen(8080, function () {
     console.log("server running on http://localhost:" + server.address().port)
 });

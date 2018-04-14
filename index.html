@@ -2,28 +2,41 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <title>Room Fetcher</title>
-    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        body { padding-top: 20px; font-size: 14px; }
-        .strong { font-weight: bold; }
-        .col-thumb { width: 80px; height: 80px; text-align: center; }
-        .thumb { max-height: 80px; }
-        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-            body { font-size: 2rem; }
-            .col-thumb { width: 160px; height: 160px; text-align: center; }
-            .thumb { max-height: 160px; }
+    body { font-size: 14px; }
+    .main { padding-top: 15px; }
+    .strong { font-weight: bold; }
+    .col-thumb { padding: .75rem 0px !important; width: 80px; height: 80px; text-align: center; }
+    .thumb { max-height: 80px; }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+        body { font-size: 2rem; }
+        .col-thumb { width: 160px; height: 160px; text-align: center; }
+        .thumb { max-height: 160px; }
         }
     </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4 col-md-12">
-                <div class="alert alert-primary">다방 / 총: <span class="strong dabang-total">0</span>개</div>
-                <div class="table-responsive">
-                    <table class="table table-striped">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Room Fetcher</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="/">송파구 원룸<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/officetel">삼성역 오피스텔</a>
+        </div>
+    </div>
+</nav>
+<div class="main container-fluid">
+    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="alert alert-primary">다방 / 총: <span class="strong dabang-total">0</span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>photo</th>
@@ -33,13 +46,13 @@
                     </thead>
                     <tbody class="dabang-result">
                     </tbody>
-                    </table>
-                </div>
+                </table>
             </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="alert alert-warning">직방 / 총: <span class="strong zigbang-total">0</span>개</div>
-                <div class="table-responsive">
-                    <table class="table table-striped">
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="alert alert-warning">직방 / 총: <span class="strong zigbang-total">0</span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>photo</th>
@@ -49,89 +62,54 @@
                     </thead>
                     <tbody class="zigbang-result">
                     </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-12">
-                <div class="alert alert-success">네이버 오피스텔 / 총: <span class="strong naver-total">0</span>개</div>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>photo</th>
-                            <th>desc</th>
-                            <!-- <th>view</th> -->
-                        </tr>
-                    </thead>
-                    <tbody class="naver-result">
-                    </tbody>
-                    </table>
-                </div>
+                </table>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        window.onload = function() {
-            $.get("/fetch", function(data) {
-                $('.dabang-total').text(data.total)
-                var rooms = data.rooms
-                rooms.forEach(function(doc) {
-                    var link = `https://www.dabangapp.com/room/${doc.id}`
-                    var template = '<tr>'
-                    template += `<td class="col-thumb"><img class="thumb" src="${doc.img_url}" /></td>`
-                    template += `<td><span class="strong">${doc.deposit}</span> / ${doc.saved_time}<br/><a href="${link}" target="_blank">${doc.title}</a><br/>${doc.room_desc}<br/>${doc.options.join(',') || '-'}</td>`
-                    template += `<td>${doc.view_count}</td>`
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        $.get("/fetch", function(data) {
+            $('.dabang-total').text(data.total)
+            var rooms = data.rooms
+            rooms.forEach(function(doc) {
+                var link = `https://www.dabangapp.com/room/${doc.id}`
+                var template = '<tr>'
+                template += `<td class="col-thumb"><img class="thumb" src="${doc.img_url}" /></td>`
+                template += `<td><span class="strong">${doc.deposit}</span> / ${doc.saved_time}<br/><a href="${link}" target="_blank">${doc.title}</a><br/>${doc.room_desc}<br/>${doc.options.join(',') || '-'}</td>`
+                template += `<td>${doc.view_count}</td>`
                     // template += `<td>active: ${doc.actived_time}<br/>saved: ${doc.saved_time}</td>`
                     template += '</tr>'
                     $('.dabang-result').append(template)
                 })
-            }).done(function() {
-                console.log('dabang complete!')
-            }).fail(function(err) {
-                console.error('dabang error>', err)
-            })
+        }).done(function() {
+            console.log('dabang complete!')
+        }).fail(function(err) {
+            console.error('dabang error>', err)
+        })
 
-            $.get('/zigbang', function(data) {
-                var rooms = data.rooms
-                $('.zigbang-total').text(rooms.length)
-                rooms.forEach(function(doc) {
-                    var item = doc.item
-                    var link = `https://www.zigbang.com/items1/${item.id}`
-                    var template = '<tr>'
-                    template += `<td class="col-thumb"><img class="thumb" src="https://ic.zigbang.com/ic${item.images_thumbnail}" /></td>`
-                    template += `<td><span class="strong">${item.deposit}</span> / ${item.updated_at2}<br/><a href="${link}" target="_blank">${item.title}</a><br/>${item.building_type} | ${item.room_type} | ${item.floor}/${item.floor_all} | 관리비 ${item.manage_cost}<br/>${item.options || '-'}</td>`
-                    template += `<td>${item.view_count}</td>`
-                    template += '</tr>'
-                    $('.zigbang-result').append(template)
-                })
-            }).done(function() {
-                console.log('zigbang complete!')
-            }).fail(function(err) {
-                console.error('zigbang error>', err)
+        $.get('/zigbang', function(data) {
+            var rooms = data.rooms
+            $('.zigbang-total').text(rooms.length)
+            rooms.forEach(function(doc) {
+                var item = doc.item
+                var link = `https://www.zigbang.com/items1/${item.id}`
+                var template = '<tr>'
+                template += `<td class="col-thumb"><img class="thumb" src="https://ic.zigbang.com/ic${item.images_thumbnail}" /></td>`
+                template += `<td><span class="strong">${item.deposit}</span> / ${item.updated_at2}<br/><a href="${link}" target="_blank">${item.title}</a><br/>${item.building_type} | ${item.room_type} | ${item.floor}/${item.floor_all} | 관리비 ${item.manage_cost}<br/>${item.options || '-'}</td>`
+                template += `<td>${item.view_count}</td>`
+                template += '</tr>'
+                $('.zigbang-result').append(template)
             })
-
-            $.get('/naver', function(data) {
-                var rooms = data.rooms
-                $('.naver-total').text(rooms.length)
-                rooms.forEach(function(doc) {
-                    // console.log(doc)
-                    var template = '<tr>'
-                    if (doc.representativeImgUrl) {
-                        template += `<td class="col-thumb"><img class="thumb" src="https://landthumb-phinf.pstatic.net${doc.representativeImgUrl}" /></td>`
-                    } else {
-                        template += '<td>-</td>'
-                    }
-                    template += `<td>${doc.articleName} <span class="strong">${doc.dealOrWarrantPrc}</span> / ${doc.articleConfirmYmd}<br/><a href="${doc.cpPcArticleUrl}" target="_blank">${doc.articleFeatureDesc}</a><br/>${doc.realEstateTypeName} | ${doc.floorInfo} | ${doc.direction} | ${doc.realtorName} <br/>${doc.tagList.join(',') || '-'}</td>`
-                    template += '</tr>'
-                    $('.naver-result').append(template)
-                })
-            }).done(function() {
-                console.log('naver complete!')
-            }).fail(function(err) {
-                console.error('naver error>', err)
-            })
-        }
-    </script>
+        }).done(function() {
+            console.log('zigbang complete!')
+        }).fail(function(err) {
+            console.error('zigbang error>', err)
+        })
+    }
+</script>
 </body>
 </html>

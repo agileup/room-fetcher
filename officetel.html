@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <title>Room Fetcher</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+    body { font-size: 14px; }
+    .main { padding-top: 15px; }
+    .strong { font-weight: bold; }
+    .col-thumb { padding: .75rem 0px !important; width: 80px; height: 80px; text-align: center; }
+    .thumb { max-height: 80px; }
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+        body { font-size: 2rem; }
+        .col-thumb { width: 160px; height: 160px; text-align: center; }
+        .thumb { max-height: 160px; }
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Room Fetcher</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/">송파구 원룸<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="/officetel">삼성역 오피스텔</a>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid main">
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="alert alert-success">네이버 오피스텔 / 총: <span class="strong naver-total">0</span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>photo</th>
+                            <th>desc</th>
+                        </tr>
+                    </thead>
+                    <tbody class="naver-result">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        $.get('/naver', function(data) {
+            var rooms = data.rooms
+            $('.naver-total').text(rooms.length)
+            rooms.forEach(function(doc) {
+                    // console.log(doc)
+                    var template = '<tr>'
+                    if (doc.representativeImgUrl) {
+                        template += `<td class="col-thumb"><img class="thumb" src="https://landthumb-phinf.pstatic.net${doc.representativeImgUrl}" /></td>`
+                    } else {
+                        template += '<td>-</td>'
+                    }
+                    template += `<td>${doc.articleName} <span class="strong">${doc.dealOrWarrantPrc}</span> / ${doc.articleConfirmYmd}<br/><a href="${doc.cpPcArticleUrl}" target="_blank">${doc.articleFeatureDesc}</a><br/>${doc.realEstateTypeName} | ${doc.floorInfo} | ${doc.direction} | ${doc.realtorName} <br/>${doc.tagList.join(',') || '-'}</td>`
+                    template += '</tr>'
+                    $('.naver-result').append(template)
+                })
+        }).done(function() {
+            console.log('naver complete!')
+        }).fail(function(err) {
+            console.error('naver error>', err)
+        })
+    }
+</script>
+</body>
+</html>
