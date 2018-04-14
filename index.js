@@ -46,6 +46,7 @@ app.get('/fetch', function(req, res) {
             res.status(400).send({ message: response.body })
         } else {
             const body = response.body
+            console.log('dabang>', new Date(), body.total)
             const rooms = body.rooms.sort(function(a,b) {
                 return new Date(b.saved_time) - new Date(a.saved_time)
             })
@@ -74,7 +75,6 @@ app.get('/zigbang', function(req, res) {
                     console.log('z1 error>', response.code, response.body)
                     cb('z1api error')
                 } else {
-                    console.log('z1api>', response.code)
                     cb(null, response.body)
                 }
             })
@@ -95,7 +95,6 @@ app.get('/zigbang', function(req, res) {
                     console.log('z2 error>', response.code, response.body)
                     cb('z2zpi error')
                 } else {
-                    console.log('z2api>', response.code)
                     cb(null, response.body)
                 }
             })

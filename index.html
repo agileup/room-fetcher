@@ -10,12 +10,17 @@
         .strong { font-weight: bold; }
         .col-thumb { width: 80px; height: 80px; text-align: center; }
         .thumb { max-height: 80px; }
+        @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+            body { font-size: 2rem; }
+            .col-thumb { width: 160px; height: 160px; text-align: center; }
+            .thumb { max-height: 160px; }
+        }
     </style>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <div class="alert alert-primary">다방 / 총: <span class="strong dabang-total">0</span>개</div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -31,7 +36,7 @@
                     </table>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <div class="alert alert-warning">직방 / 총: <span class="strong zigbang-total">0</span>개</div>
                 <div class="table-responsive">
                     <table class="table table-striped">
@@ -47,7 +52,7 @@
                     </table>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-12">
                 <div class="alert alert-success">네이버 오피스텔 / 총: <span class="strong naver-total">0</span>개</div>
                 <div class="table-responsive">
                     <table class="table table-striped">
