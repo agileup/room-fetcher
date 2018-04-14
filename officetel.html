@@ -33,8 +33,38 @@
 </nav>
 <div class="container-fluid main">
     <div class="row">
-        <div class="col-lg-12 col-md-12">
-            <div class="alert alert-success">네이버 오피스텔 / 총: <span class="strong naver-total">0</span>개</div>
+        <div class="col-lg-6 col-md-12">
+            <div class="alert alert-primary">다방 / 총: <span class="strong dabang-total">0</span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>photo</th>
+                            <th>desc</th>
+                            <th>view</th>
+                        </tr>
+                    </thead>
+                    <tbody class="dabang-result">
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-warning">직방 / 총: <span class="strong zigbang-total">0</span>개</div>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>photo</th>
+                            <th>desc</th>
+                            <th>view</th>
+                        </tr>
+                    </thead>
+                    <tbody class="zigbang-result">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="alert alert-success">네이버 / 총: <span class="strong naver-total">0</span>개</div>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
@@ -55,6 +85,45 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript">
     window.onload = function() {
+        $.get("/dabang-offi", function(data) {
+            $('.dabang-total').text(data.rooms.length)
+            var rooms = data.rooms
+            rooms.forEach(function(doc) {
+                console.log(doc)
+                var link = `https://www.dabangapp.com/room/${doc.id}`
+                var template = '<tr>'
+                template += `<td class="col-thumb"><img class="thumb" src="${doc.img_url}" /></td>`
+                template += `<td><span class="strong">${doc.deposit}</span> / ${doc.saved_time}<br/><a href="${link}" target="_blank">${doc.title}</a><br/>${doc.room_desc}<br/>${doc.options.join(',') || '-'}</td>`
+                template += `<td>${doc.view_count}</td>`
+                    // template += `<td>active: ${doc.actived_time}<br/>saved: ${doc.saved_time}</td>`
+                    template += '</tr>'
+                    $('.dabang-result').append(template)
+                })
+        }).done(function() {
+            console.log('dabang complete!')
+        }).fail(function(err) {
+            console.error('dabang error>', err)
+        })
+
+        $.get('/zigbang-offi', function(data) {
+            var rooms = data.rooms
+            $('.zigbang-total').text(rooms.length)
+            rooms.forEach(function(doc) {
+                var item = doc.item
+                var link = `https://www.zigbang.com/items1/${item.id}`
+                var template = '<tr>'
+                template += `<td class="col-thumb"><img class="thumb" src="https://ic.zigbang.com/ic${item.images_thumbnail}" /></td>`
+                template += `<td><span class="strong">${item.deposit}</span> / ${item.updated_at2}<br/><a href="${link}" target="_blank">${item.title}</a><br/>${item.building_type} | ${item.room_type} | ${item.floor}/${item.floor_all} | 관리비 ${item.manage_cost}<br/>${item.options || '-'}</td>`
+                template += `<td>${item.view_count}</td>`
+                template += '</tr>'
+                $('.zigbang-result').append(template)
+            })
+        }).done(function() {
+            console.log('zigbang complete!')
+        }).fail(function(err) {
+            console.error('zigbang error>', err)
+        })
+
         $.get('/naver', function(data) {
             var rooms = data.rooms
             $('.naver-total').text(rooms.length)
