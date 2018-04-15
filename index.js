@@ -149,8 +149,13 @@ app.get('/zigbang', function(req, res) {
         if (err) {
             res.status(400).send({ message: err });
         } else {
-            const total = results.details.items.length
-            const rooms = results.details.items.sort(function(a,b) {
+            const roomList = results.details.items.filter(function(r) {
+                const f = r.item.floor
+                return f.indexOf('반지하') >= 0 ? false : true
+            })
+
+            const total = roomList.length
+            const rooms = roomList.sort(function(a,b) {
                 return new Date(b.item.updated_at2) - new Date(a.item.updated_at2)
             })
             const result = {
