@@ -4,6 +4,7 @@ var express = require('express')
 var app = express()
 var path = require('path')
 
+const PORT = process.env.PORT || 8080
 const MAX_DEPOSIT = 16000
 const MAX_RENT = 20
 
@@ -16,7 +17,7 @@ app.get('/officetel', function(req, res) {
     res.sendFile(path.join(__dirname + '/officetel.html'));
 })
 
-var server = app.listen(8080, function () {
+var server = app.listen(PORT, function () {
     console.log("server running on http://localhost:" + server.address().port)
 });
 
