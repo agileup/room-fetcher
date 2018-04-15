@@ -100,7 +100,7 @@
                 var link = `https://www.zigbang.com/items1/${item.id}`
                 var template = '<tr>'
                 template += `<td class="col-thumb"><img class="thumb" src="https://ic.zigbang.com/ic${item.images_thumbnail}" /></td>`
-                template += `<td><span class="strong">${item.deposit}</span> / ${item.updated_at2}<br/><a href="${link}" target="_blank">${item.title}</a><br/>${item.building_type} | ${item.room_type} | ${item.floor}/${item.floor_all} | 관리비 ${item.manage_cost}<br/>${item.options || '-'}</td>`
+                template += `<td><span class="strong">${item.deposit}</span> / ${item.updated_at2}<br/><a href="${link}" target="_blank">${item.title}</a><br/>${item.building_type} | ${item.room_type} | ${item.floor}/${item.floor_all} | ${item.size_m2}m²(${item.size}P) | 관리비 ${item.manage_cost}<br/>${item.options || '-'}</td>`
                 template += `<td>${item.view_count}</td>`
                 template += '</tr>'
                 $('.zigbang-result').append(template)
