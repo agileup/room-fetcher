@@ -27,9 +27,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/">송파구 원룸<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/">송파구 원룸</a>
             <a class="nav-item nav-link" href="/soffi">삼성역 오피스텔</a>
-            <a class="nav-item nav-link" href="/sone">삼성역 원룸</a>
+            <a class="nav-item nav-link active" href="/sone">삼성역 원룸<span class="sr-only">(current)</span></a>
         </div>
     </div>
 </nav>
@@ -74,7 +74,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript">
     window.onload = function() {
-        $.get("/dabang", function(data) {
+        $.get("/dabang-sone", function(data) {
             $('.dabang-total').text(data.total)
             var rooms = data.rooms
             rooms.forEach(function(doc) {
@@ -83,17 +83,16 @@
                 template += `<td class="col-thumb"><img class="thumb" src="${doc.img_url}" /></td>`
                 template += `<td><span class="strong">${doc.deposit}</span> / ${doc.saved_time}<br/><a href="${link}" target="_blank">${doc.title}</a><br/>${doc.room_desc}<br/>${doc.options.join(',') || '-'}</td>`
                 template += `<td>${doc.view_count}</td>`
-                    // template += `<td>active: ${doc.actived_time}<br/>saved: ${doc.saved_time}</td>`
-                    template += '</tr>'
-                    $('.dabang-result').append(template)
-                })
+                template += '</tr>'
+                $('.dabang-result').append(template)
+            })
         }).done(function() {
             console.log('dabang complete!')
         }).fail(function(err) {
             console.error('dabang error>', err)
         })
 
-        $.get('/zigbang', function(data) {
+        $.get('/zigbang-sone', function(data) {
             var rooms = data.rooms
             $('.zigbang-total').text(rooms.length)
             rooms.forEach(function(doc) {
